@@ -1,7 +1,7 @@
 html,
 body,
 #main {
-  font-family:serif
+    font-family: serif;
 }
 html,
 body,
@@ -17,22 +17,22 @@ dl.meta,
 .blurb h4,
 .blurb h5,
 .blurb .summary blockquote {
-  margin:auto;
-  padding:2pt;
-  min-height:auto;
-  width:auto;
-  color:#000;
-  background:0 0;
-  border:none;
-  position:static
+    margin: auto;
+    padding: 2pt;
+    min-height: auto;
+    width: auto;
+    color: #000;
+    background: 0 0;
+    border: none;
+    position: static;
 }
 #main p,
 #main li,
 #main dd {
-  font:11pt serif;
-  line-height:1.2;
-  margin:auto;
-  text-indent:22pt
+    font: 11pt serif;
+    line-height: 1.2;
+    margin: auto;
+    text-indent: 22pt;
 }
 #header,
 #footer,
@@ -49,7 +49,7 @@ img,
 .flash,
 input,
 .landmark {
-  display:none
+    display: none;
 }
 .meta dd,
 .meta ul,
@@ -58,33 +58,33 @@ input,
 .blurb dd ul,
 .blurb ul li,
 .blurb .datetime {
-  font-size:9pt;
-  display:inline
+    font-size: 9pt;
+    display: inline;
 }
 li.blurb {
-  border-bottom:3pt double #000;
-  margin:6pt auto
+    border-bottom: 3pt double #000;
+    margin: 6pt auto;
 }
 a,
 a:link,
 a:visited {
-  color:#000;
-  text-decoration:underline;
-  border:0
+    color: #000;
+    text-decoration: underline;
+    border: 0;
 }
 .meta a,
 .meta a:link,
 .meta a:visited,
 .blurb a:link,
 .blurb a:visited {
-  text-decoration:none
+    text-decoration: none;
 }
 a:after {
-  content:" (" attr(href) ") ";
-  font-size:9pt
+    content: ' (' attr(href) ') ';
+    font-size: 9pt;
 }
-a[href^="/"]:after {
-  content:" (http://archiveofourown.org" attr(href) ") "
+a[href^='.']:after {
+    content: ' (http://archiveofourown.org' attr(href) ') ';
 }
 .meta a:link:after,
 .meta a:visited:after,
@@ -92,5 +92,5 @@ a[href^="/"]:after {
 .blurb a:link:visited,
 .byline a:link:after,
 .byline a:visited:after {
-  content:" "
+    content: ' ';
 }

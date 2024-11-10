@@ -23,9 +23,9 @@
         <link rel="stylesheet" type="text/css" media="only screen and (max-width: 42em), handheld" href="/stylesheets/skins/skin_1_default/5_site_narrow.handheld_.css" />
         <link rel="stylesheet" type="text/css" media="speech" href="/stylesheets/skins/skin_1_default/6_site_speech_.css" />
         <link rel="stylesheet" type="text/css" media="print" href="/stylesheets/skins/skin_1_default/7_site_print_.css" />
-        <link rel="stylesheet" href="/stylesheets/skins/user/tempName/default.css" />
-        <link rel="stylesheet" href="/stylesheets/skins/user/tempName/md.css" media="only screen and (max-width: 62em)" />
-        <link rel="stylesheet" href="/stylesheets/skins/user/tempName/sm.css" media="only screen and (max-width: 42em)" />
+        <link rel="stylesheet" href="/stylesheets/skins/users/tempName/default.css" />
+        <link rel="stylesheet" href="/stylesheets/skins/users/tempName/md.css" media="only screen and (max-width: 62em)" />
+        <link rel="stylesheet" href="/stylesheets/skins/users/tempName/sm.css" media="only screen and (max-width: 42em)" />
         <!-- END STYLESHEETS -->
 
         <!--sandbox for developers	-->
@@ -48,17 +48,17 @@
                 <nav id="greeting" aria-label="User">
                     <ul class="user navigation actions">
                         <li class="dropdown">
-                            <a href="/users">Hi, User!</a>
+                            <a href="/users/User">Hi, User!</a>
                             <ul class="menu">
-                                <li><a href="/users">My Dashboard</a></li>
+                                <li><a href="/users/User">My Dashboard</a></li>
                                 <li>
-                                    <a href="/users/subscriptions.html">My Subscriptions</a>
+                                    <a href="/users/User/subscriptions.html">My Subscriptions</a>
                                 </li>
-                                <li><a href="/users/works.html">My Works</a></li>
-                                <li><a href="/users/bookmarks.html">My Bookmarks</a></li>
-                                <li><a href="/users/readings.html">My History</a></li>
+                                <li><a href="/users/User/works.html">My Works</a></li>
+                                <li><a href="/users/User/bookmarks.html">My Bookmarks</a></li>
+                                <li><a href="/users/User/readings.html">My History</a></li>
                                 <li>
-                                    <a href="/users/preferences.html">My Preferences</a>
+                                    <a href="/users/User/preferences.html">My Preferences</a>
                                 </li>
                             </ul>
                         </li>
@@ -75,7 +75,7 @@
                     </ul>
 
                     <p class="icon">
-                        <a href="/users"><img alt="Nahida Art - Face Zoomed In" class="icon" src="https://s3.amazonaws.com/otw-ao3-icons/icons/1410309/standard.png?1731092967" /></a>
+                        <a href="/users/User"><img alt="Nahida Art - Face Zoomed In" class="icon" src="https://s3.amazonaws.com/otw-ao3-icons/icons/1410309/standard.png?1731092967" /></a>
                     </p>
                 </nav>
 
@@ -121,7 +121,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/">Browse</a>
+                            <a href="/menu/browse.html">Browse</a>
                             <ul class="menu">
                                 <li><a href="/works">Works</a></li>
                                 <li><a href="/bookmarks">Bookmarks</a></li>
@@ -130,7 +130,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/">Search</a>
+                            <a href="/menu/search.html">Search</a>
                             <ul class="menu">
                                 <li><a href="/works/search.html">Works</a></li>
                                 <li><a href="/bookmarks/search.html">Bookmarks</a></li>
@@ -139,15 +139,15 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/">About</a>
+                            <a href="/menu/about.html">About</a>
                             <ul class="menu">
-                                <li><a href="/about">About Us</a></li>
-                                <li><a href="/admin_posts">News</a></li>
-                                <li><a href="/faq">FAQ</a></li>
+                                <li><a href="/about.html">About Us</a></li>
+                                <li><a href="/admin_posts.html">News</a></li>
+                                <li><a href="/faq.html">FAQ</a></li>
                                 <li>
-                                    <a href="/wrangling_guidelines">Wrangling Guidelines</a>
+                                    <a href="/wrangling_guidelines.html">Wrangling Guidelines</a>
                                 </li>
-                                <li><a href="/donate">Donate or Volunteer</a></li>
+                                <li><a href="/donate.html">Donate or Volunteer</a></li>
                             </ul>
                         </li>
                         <li class="search">
@@ -277,7 +277,7 @@
                         <div class="random readings module">
                             <h3 class="heading">
                                 <span class="title">Is it later already?</span>
-                                <span class="link"><a href="/users/readings.html">My History</a></span>
+                                <span class="link"><a href="/users/User/readings.html">My History</a></span>
                             </h3>
                             <div class="flash"></div>
                             <p class="note">Some works you&#39;ve marked for later.</p>
@@ -394,7 +394,7 @@
 
                                         <ul class="actions" role="menu">
                                             <li>
-                                                <form class="ajax-remove" action="/users/mifanathan/readings/783273449" accept-charset="UTF-8" method="post">
+                                                <form class="ajax-remove">
                                                     <input type="hidden" name="_method" value="delete" autocomplete="off" /><input type="hidden" name="authenticity_token" value="haS9dKcFvnohgl1JY7gEGxaWbAFGISB8ClC4HGPGVnGtE-1hoTv-KULWCzMp36O4cW5f4HDldPATN_3ZACVVXw" autocomplete="off" />
                                                     <input type="hidden" name="reading" id="reading" value="783273449" class="text" autocomplete="off" />
                                                     <input type="submit" name="commit" value="Delete from History" />
