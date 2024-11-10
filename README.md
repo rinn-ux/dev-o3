@@ -46,11 +46,11 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 │  └─ search.html
 ├─ collections/
 ├─ media/
-│  ├─ index.html
+│  ├─ index.html ✅
 │  └─ random/
 │     ├─ fandoms/
 │     │  └─ index.html
-│     └─ index.html
+│     └─ index.html ✅
 ├─ people/
 │  └─ search.html
 ├─ tags/
@@ -76,10 +76,10 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 │     ├─ readings.html
 │     ├─ subscriptions.html
 │     └─ works.html
-├─ about.html
+├─ about.html ✅
 ├─ admin_posts.html
 ├─ faq.html
-└─ index.html
+└─ index.html ✅
 ```
 
 ### Built With
