@@ -1,10 +1,6 @@
 {
     "folders": [
         {
-            "name": "dev-o3",
-            "path": "."
-        },
-        {
             "name": "src",
             "path": "src"
         }
