@@ -26,10 +26,13 @@
 
 ## About The Project
 
-This is a WIP minimal static version of Ao3 for skin development purposes. Made to work with [skin-template](https://github.com/rinn-ux/skin-template). 
+This is a WIP minimal static version of Ao3 for skin development purposes. Made to work with [skin-template](https://github.com/rinn-ux/skin-template).
+
 <!--Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Roadmap
 
 ### Built With
 
@@ -40,46 +43,45 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
-To get started clone the repo or download the latest release.
 
+To get started clone the repo or download the latest release.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
-*USAGE INFO TBA*
+
+_USAGE INFO TBA_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Rinn/Rhylen - [@rinn-ux](https://rinn-ux.tumblr.com) - me@rhylennguyen.com
 
 Project Link: [https://github.com/rinn-ux/dev-o3](https://github.com/rinn-ux/dev-o3)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Ao3 Skins](https://www.tumblr.com/ao3skin)
-* [ReversiPlusPlus](https://github.com/galaxygrotesque/ReversiPlusPlus)
-* [OTW Archive](https://github.com/otwcode/otwarchive)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Ao3 Skins](https://www.tumblr.com/ao3skin)
+- [ReversiPlusPlus](https://github.com/galaxygrotesque/ReversiPlusPlus)
+- [OTW Archive](https://github.com/otwcode/otwarchive)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 

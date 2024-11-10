@@ -21,17 +21,54 @@
     <title>Home | Archive of Our Own</title>
 
     <!-- SKIN STYLESHEETS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/stylesheets/skins/skin_1_default/1_site_screen_.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (max-width: 62em), handheld"
+      href="/stylesheets/skins/skin_1_default/4_site_midsize.handheld_.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (max-width: 42em), handheld"
+      href="/stylesheets/skins/skin_1_default/5_site_narrow.handheld_.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="speech"
+      href="/stylesheets/skins/skin_1_default/6_site_speech_.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="print"
+      href="/stylesheets/skins/skin_1_default/7_site_print_.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/skins/user/tempName/default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/skins/user/tempName/md.css"
+      media="only screen and (max-width: 62em)"
+    />
+    <link
+      rel="stylesheet"
+      href="/stylesheets/skins/user/tempName/sm.css"
+      media="only screen and (max-width: 42em)"
+    />
     <!-- END STYLESHEETS -->
 
     <!--sandbox for developers	-->
     <link rel="stylesheet" href="/stylesheets/sandbox.css" />
-
-    <script src="/javascripts/livevalidation_standalone.js"></script>
-    <meta name="csrf-param" content="authenticity_token" />
-    <meta
-      name="csrf-token"
-      content="rixJTN8tRrTHZFnL6hwr-Xbh2V9oHpgopwDWkEOwTQxRoCVmRrIvU3wnTjZLktm5X4vGKLYt68RvafZk5mgnUA"
-    />
   </head>
 
   <body class="logged-in">
@@ -56,36 +93,34 @@
         <nav id="greeting" aria-label="User">
           <ul class="user navigation actions">
             <li class="dropdown">
-              <a href="/users/mifanathan">Hi, User!</a>
+              <a href="/users">Hi, User!</a>
               <ul class="menu">
-                <li><a href="/users/mifanathan">My Dashboard</a></li>
+                <li><a href="/users">My Dashboard</a></li>
                 <li>
-                  <a href="/users/mifanathan/subscriptions">My Subscriptions</a>
+                  <a href="/users/subscriptions.html">My Subscriptions</a>
                 </li>
-                <li><a href="/users/mifanathan/works">My Works</a></li>
-                <li><a href="/users/mifanathan/bookmarks">My Bookmarks</a></li>
-                <li><a href="/users/mifanathan/readings">My History</a></li>
+                <li><a href="/users/works.html">My Works</a></li>
+                <li><a href="/users/bookmarks.html">My Bookmarks</a></li>
+                <li><a href="/users/readings.html">My History</a></li>
                 <li>
-                  <a href="/users/mifanathan/preferences">My Preferences</a>
+                  <a href="/users/preferences.html">My Preferences</a>
                 </li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="/works/new">Post</a>
+              <a href="/works/new.html">Post</a>
               <ul class="menu">
-                <li><a href="/works/new">New Work</a></li>
-                <li><a href="/works/new?import=true">Import Work</a></li>
+                <li><a href="/works/new.html">New Work</a></li>
+                <li><a href="/works/newImport.html">Import Work</a></li>
               </ul>
             </li>
             <li>
-              <a rel="nofollow" data-method="delete" href="/users/logout"
-                >Log Out</a
-              >
+              <a rel="nofollow" data-method="delete" href="/">Log Out</a>
             </li>
           </ul>
 
           <p class="icon">
-            <a href="/users/mifanathan"
+            <a href="/users"
               ><img
                 alt="Nahida Art - Face Zoomed In"
                 class="icon"
@@ -101,55 +136,44 @@
               <ul class="menu">
                 <li><a href="/media">All Fandoms</a></li>
                 <li id="medium_5">
-                  <a href="/media/Anime%20*a*%20Manga/fandoms"
-                    >Anime &amp; Manga</a
-                  >
+                  <a href="/media.html">Anime &amp; Manga</a>
                 </li>
                 <li id="medium_3">
-                  <a href="/media/Books%20*a*%20Literature/fandoms"
-                    >Books &amp; Literature</a
-                  >
+                  <a href="/media.html">Books &amp; Literature</a>
                 </li>
                 <li id="medium_4">
-                  <a
-                    href="/media/Cartoons%20*a*%20Comics%20*a*%20Graphic%20Novels/fandoms"
+                  <a href="/media.html"
                     >Cartoons &amp; Comics &amp; Graphic Novels</a
                   >
                 </li>
                 <li id="medium_7">
-                  <a href="/media/Celebrities%20*a*%20Real%20People/fandoms"
-                    >Celebrities &amp; Real People</a
-                  >
+                  <a href="/media.html">Celebrities &amp; Real People</a>
                 </li>
                 <li id="medium_2">
-                  <a href="/media/Movies/fandoms">Movies</a>
+                  <a href="/media.html">Movies</a>
                 </li>
                 <li id="medium_6">
-                  <a href="/media/Music%20*a*%20Bands/fandoms"
-                    >Music &amp; Bands</a
-                  >
+                  <a href="/media.html">Music &amp; Bands</a>
                 </li>
                 <li id="medium_8">
-                  <a href="/media/Other%20Media/fandoms">Other Media</a>
+                  <a href="/media.html">Other Media</a>
                 </li>
                 <li id="medium_30198">
-                  <a href="/media/Theater/fandoms">Theater</a>
+                  <a href="/media.html">Theater</a>
                 </li>
                 <li id="medium_1">
-                  <a href="/media/TV%20Shows/fandoms">TV Shows</a>
+                  <a href="/media.html">TV Shows</a>
                 </li>
                 <li id="medium_476">
-                  <a href="/media/Video%20Games/fandoms">Video Games</a>
+                  <a href="/media.html">Video Games</a>
                 </li>
                 <li id="medium_9971">
-                  <a href="/media/Uncategorized%20Fandoms/fandoms"
-                    >Uncategorized Fandoms</a
-                  >
+                  <a href="/media.html">Uncategorized Fandoms</a>
                 </li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="/menu/browse">Browse</a>
+              <a href="/">Browse</a>
               <ul class="menu">
                 <li><a href="/works">Works</a></li>
                 <li><a href="/bookmarks">Bookmarks</a></li>
@@ -158,16 +182,16 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="/menu/search">Search</a>
+              <a href="/">Search</a>
               <ul class="menu">
-                <li><a href="/works/search">Works</a></li>
-                <li><a href="/bookmarks/search">Bookmarks</a></li>
-                <li><a href="/tags/search">Tags</a></li>
-                <li><a href="/people/search">People</a></li>
+                <li><a href="/works/search.html">Works</a></li>
+                <li><a href="/bookmarks/search.html">Bookmarks</a></li>
+                <li><a href="/tags/search.html">Tags</a></li>
+                <li><a href="/people/search.html">People</a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="/menu/about">About</a>
+              <a href="/">About</a>
               <ul class="menu">
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/admin_posts">News</a></li>
@@ -340,7 +364,7 @@
               <h3 class="heading">
                 <span class="title">Is it later already?</span>
                 <span class="link"
-                  ><a href="/users/mifanathan/readings">My History</a></span
+                  ><a href="/users/readings.html">My History</a></span
                 >
               </h3>
               <div class="flash"></div>
@@ -441,10 +465,10 @@
                     </li>
 
                     <li class="freeforms">
-                      <a class="tag" href="/#">Fluff</a>
+                      <a class="tag" href="/">Fluff</a>
                     </li>
                     <li class="freeforms">
-                      <a class="tag" href="/#">Slice of Life</a>
+                      <a class="tag" href="/">Slice of Life</a>
                     </li>
                   </ul>
 
@@ -469,33 +493,26 @@
                     <dt class="words">Words:</dt>
                     <dd class="words">70,587</dd>
                     <dt class="chapters">Chapters:</dt>
-                    <dd class="chapters">
-                      <a href="/works/590246/chapters/15544963">4</a>/4
-                    </dd>
+                    <dd class="chapters"><a href="/">4</a>/4</dd>
 
                     <dt class="collections">Collections:</dt>
                     <dd class="collections">
-                      <a href="/works/590246/collections">4</a>
+                      <a href="/">4</a>
                     </dd>
 
                     <dt class="comments">Comments:</dt>
                     <dd class="comments">
-                      <a
-                        href="/works/590246?show_comments=true&amp;view_full_work=true#comments"
-                        >270</a
-                      >
+                      <a href="/">270</a>
                     </dd>
 
                     <dt class="kudos">Kudos:</dt>
                     <dd class="kudos">
-                      <a href="/works/590246?view_full_work=true#kudos"
-                        >4,642</a
-                      >
+                      <a href="/">4,642</a>
                     </dd>
 
                     <dt class="bookmarks">Bookmarks:</dt>
                     <dd class="bookmarks">
-                      <a href="/works/590246/bookmarks">1,587</a>
+                      <a href="/">1,587</a>
                     </dd>
 
                     <dt class="hits">Hits:</dt>
