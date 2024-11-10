@@ -34,11 +34,59 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 
 ### Roadmap
 
+```sh
+├─ help/
+│  └─ symbols-key.html
+├─ menu/
+│  ├─ about.html
+│  ├─ browse.html
+│  ├─ fandoms.html
+│  └─ search.html
+├─ bookmarks/
+│  └─ search.html
+├─ collections/
+├─ media/
+│  ├─ index.html
+│  └─ random/
+│     ├─ fandoms/
+│     │  └─ index.html
+│     └─ index.html
+├─ people/
+│  └─ search.html
+├─ tags/
+│  ├─ example-tag/
+│  │  ├─ index.html
+│  │  └─ works/
+│  │     └─ index.html
+│  ├─ index.html
+│  └─ search.html
+├─ works/
+│  ├─ new.html
+│  ├─ newImport.html
+│  ├─ search.html
+│  └─ untitled.html
+├─ users/
+│  ├─ Author/
+│  │  └─ pseuds/
+│  │     └─ FavAuthor.html
+│  └─ User/
+│     ├─ bookmarks.html
+│     ├─ index.html
+│     ├─ preferences.html
+│     ├─ readings.html
+│     ├─ subscriptions.html
+│     └─ works.html
+├─ about.html
+├─ admin_posts.html
+├─ faq.html
+└─ index.html
+```
+
 ### Built With
 
-- HTML
-- SCSS
-- CSS
+-   HTML
+-   SCSS
+-   CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,10 +124,10 @@ Project Link: [https://github.com/rinn-ux/dev-o3](https://github.com/rinn-ux/dev
 
 ## Acknowledgments
 
-- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-- [Ao3 Skins](https://www.tumblr.com/ao3skin)
-- [ReversiPlusPlus](https://github.com/galaxygrotesque/ReversiPlusPlus)
-- [OTW Archive](https://github.com/otwcode/otwarchive)
+-   [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+-   [Ao3 Skins](https://www.tumblr.com/ao3skin)
+-   [ReversiPlusPlus](https://github.com/galaxygrotesque/ReversiPlusPlus)
+-   [OTW Archive](https://github.com/otwcode/otwarchive)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

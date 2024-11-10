@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "dev-o3",
+            "path": "."
+        },
+        {
+            "name": "src",
+            "path": "src"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "src"
+    }
+}
