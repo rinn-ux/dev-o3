@@ -33,55 +33,60 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Roadmap
+|  | Key |
+| --- | --- |
+| ✅ | **Complete**: All links go somewhere even if the page is empty and content is mostly placeholder. |
+| 💻 | **In-Progress**: Content is on the page but content and links might still go nowhere. |
+| | **Not Started**: Empty pages or directories |
 
 ```sh
-├─ help/
-│  └─ symbols-key.html
-├─ menu/
-│  ├─ about.html
-│  ├─ browse.html
-│  ├─ fandoms.html
-│  └─ search.html
-├─ bookmarks/
-│  └─ search.html
-├─ collections/
-├─ media/
-│  ├─ index.html ✅
-│  └─ random/
-│     ├─ fandoms/
-│     │  └─ index.html
-│     └─ index.html ✅
-├─ people/
-│  └─ search.html
-├─ tags/
-│  ├─ example-tag/
-│  │  ├─ index.html
-│  │  └─ works/
-│  │     └─ index.html
-│  ├─ index.html
-│  └─ search.html
-├─ works/
-│  ├─ new.html
-│  ├─ newImport.html
-│  ├─ search.html
-│  └─ untitled.html
-├─ users/
-│  ├─ Author/
-│  │  └─ pseuds/
-│  │     └─ FavAuthor.html
-│  └─ User/
-│     ├─ bookmarks.html
-│     ├─ index.html
-│     ├─ preferences.html
-│     ├─ readings.html
-│     ├─ subscriptions.html
-│     └─ works.html
-├─ about.html ✅
-├─ admin_posts.html
-├─ wrangling_guidelines.html
-├─ donate.html
-├─ faq.html
-└─ index.html ✅
+├── bookmarks
+│   └── search.html
+├── collections
+├── help
+│   └── symbols-key.html
+├── media
+│   ├── random
+│   │   ├── fandoms
+│   │   │   └── index.html ✅
+│   │   └── index.html ✅
+│   └── index.html ✅
+├── menu
+│   ├── about.html
+│   ├── browse.html
+│   ├── fandoms.html
+│   └── search.html
+├── people
+│   └── search.html
+├── tags
+│   ├── example-tag
+│   │   ├── works
+│   │   │   └── index.html
+│   │   └── index.html
+│   ├── index.html
+│   └── search.html
+├── users
+│   ├── Author
+│   │   └── pseuds
+│   │       └── FavAuthor.html
+│   └── User
+│       ├── bookmarks.html
+│       ├── index.html
+│       ├── preferences.html
+│       ├── readings.html
+│       ├── subscriptions.html
+│       └── works.html
+├── works
+│   ├── new.html
+│   ├── newImport.html
+│   ├── search.html
+│   └── untitled.html
+├── about.html ✅
+├── admin_posts.html 💻
+├── donate.html 💻
+├── faq.html 💻
+├── index.html✅
+└── wrangling_guidelines.html 💻
 ```
 
 ### Built With
