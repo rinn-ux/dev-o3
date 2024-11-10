@@ -78,6 +78,8 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 │     └─ works.html
 ├─ about.html ✅
 ├─ admin_posts.html
+├─ wrangling_guidelines.html
+├─ donate.html
 ├─ faq.html
 └─ index.html ✅
 ```
