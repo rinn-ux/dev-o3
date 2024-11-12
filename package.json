@@ -1,0 +1,8 @@
+{
+    "name": "dev-o3",
+    "type": "module",
+    "scripts": {
+        "headers": "node scripts/replaceHeaders.js",
+        "footers": "node scripts/replaceFooters.js"
+    }
+}

@@ -33,11 +33,12 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Roadmap
-|  | Key |
-| --- | --- |
-| ✅ | **Complete**: All links go somewhere even if the page is empty and content is mostly placeholder. |
-| 💻 | **In-Progress**: Content is on the page but content and links might still go nowhere. |
-| | **Not Started**: Empty pages or directories |
+
+|     | Key                                                                                               |
+| --- | ------------------------------------------------------------------------------------------------- |
+| ✅  | **Complete**: All links go somewhere even if the page is empty and content is mostly placeholder. |
+| 💻  | **In-Progress**: Content is on the page but content and links might still go nowhere.             |
+|     | **Not Started**: Empty pages or directories                                                       |
 
 ```sh
 ├── bookmarks
@@ -82,8 +83,8 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 │   ├── search.html
 │   └── untitled.html
 ├── about.html ✅
-├── admin_posts.html 💻
-├── donate.html 💻
+├── admin_posts.html ✅
+├── donate.html ✅
 ├── faq.html 💻
 ├── index.html✅
 └── wrangling_guidelines.html 💻
