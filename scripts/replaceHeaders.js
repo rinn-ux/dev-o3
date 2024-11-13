@@ -142,13 +142,15 @@ files.forEach((file) => {
         flag: 'r',
     })
 
-    data =
-        data.split('<!-- BEGIN header -->')[0] +
-        HEADER +
-        data.split('<!-- END header -->')[1]
+    if (data.includes('<!-- BEGIN header -->')) {
+        data =
+            data.split('<!-- BEGIN header -->')[0] +
+            HEADER +
+            data.split('<!-- END header -->')[1]
 
-    fs.writeFileSync('src/' + file, data, {
-        encoding: 'utf8',
-        flag: 'w',
-    })
+        fs.writeFileSync('src/' + file, data, {
+            encoding: 'utf8',
+            flag: 'w',
+        })
+    }
 })

@@ -1,87 +1,4338 @@
-<!-- BEGIN header -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta
+            name="keywords"
+            content="fanfiction, transformative works, otw, fair use, archive"
+        />
+        <meta name="language" content="en-US" />
+        <meta name="subject" content="fandom" />
+        <meta
+            name="description"
+            content="An Archive of Our Own, a project of the
+    Organization for Transformative Works"
+        />
+        <meta name="distribution" content="GLOBAL" />
+        <meta name="classification" content="transformative works" />
+        <meta name="author" content="Organization for Transformative Works" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tags | Archive of Our Own</title>
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="/stylesheets/skins/skin_1_default/1_site_screen_.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="only screen and (max-width: 62em), handheld"
+            href="/stylesheets/skins/skin_1_default/4_site_midsize.handheld_.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="only screen and (max-width: 42em), handheld"
+            href="/stylesheets/skins/skin_1_default/5_site_narrow.handheld_.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="speech"
+            href="/stylesheets/skins/skin_1_default/6_site_speech_.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="print"
+            href="/stylesheets/skins/skin_1_default/7_site_print_.css"
+        />
+        <!--[if IE 8
+            ]><link
+                rel="stylesheet"
+                type="text/css"
+                media="screen"
+                href="/stylesheets/skins/skin_1_default/8_site_screen_IE8_or_lower.css"
+        /><![endif]-->
+        <!--[if IE 5
+            ]><link
+                rel="stylesheet"
+                type="text/css"
+                media="screen"
+                href="/stylesheets/skins/skin_1_default/9_site_screen_IE5.css"
+        /><![endif]-->
+        <!--[if IE 6
+            ]><link
+                rel="stylesheet"
+                type="text/css"
+                media="screen"
+                href="/stylesheets/skins/skin_1_default/10_site_screen_IE6.css"
+        /><![endif]-->
+        <!--[if IE 7
+            ]><link
+                rel="stylesheet"
+                type="text/css"
+                media="screen"
+                href="/stylesheets/skins/skin_1_default/11_site_screen_IE7.css"
+        /><![endif]-->
+        <style type="text/css" media="all">
+            body {
+                font-family: 'IBM Plex Sans', 'Proxima Nova', 'Helvetica Neue',
+                    'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont',
+                    Verdana, Helvetica, sans-serif;
+            }
+
+            input,
+            textarea,
+            blockquote,
+            blockquote.userstuff,
+            .blurb blockquote,
+            .dropdown,
+            .expander,
+            .toggled form {
+                font-family: 'IBM Plex Sans', 'Proxima Nova', 'Helvetica Neue',
+                    'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont',
+                    Verdana, Helvetica, sans-serif;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            .heading,
+            .bookmark .user .meta {
+                font-family: 'Charter', 'IBM Plex Serif', 'Palatino', 'Georgia',
+                    serif;
+            }
+
+            kbd,
+            tt,
+            code,
+            var,
+            pre,
+            samp {
+                font-family: 'Fira Code', 'Source Code Pro', 'Menlo', 'Monaco',
+                    'Consolas', Courier, monospace;
+                font-size: 0.9em;
+            }
+
+            * {
+                box-shadow: none !important;
+                outline: none !important;
+                text-shadow: none !important;
+            }
+
+            body {
+                background: #1e1e2e;
+                border-color: #78777d;
+                color: #eee;
+            }
+
+            a,
+            a:link {
+                color: #cdd6f4;
+                text-decoration: none;
+            }
+
+            a:hover,
+            a:link:hover,
+            a:link:visited,
+            a:visited:hover,
+            div.preface .byline a:hover,
+            div.preface .byline a:visited:hover,
+            .blurb h4 a:hover,
+            .blurb h4 a:link:hover,
+            .blurb h4 a:visited:hover,
+            .listbox .heading a:visited:hover {
+                color: rgb(191.25, 199.75, 254.15);
+            }
+
+            a:visited,
+            div.preface .byline a:visited,
+            span.series .divider,
+            .blurb h4 a:visited,
+            .listbox .heading a:visited {
+                color: #b4befe;
+            }
+
+            a img,
+            .icon {
+                border: 0;
+                border-radius: 0.25em;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            .heading {
+                border: 0;
+            }
+
+            h1 {
+                font-size: 2.5em;
+                line-height: 1;
+                margin: 0.5em 0;
+            }
+
+            h2 {
+                font-size: 2.145em;
+                line-height: 1;
+                margin: 0.5em 0;
+                display: inline;
+            }
+
+            h3 {
+                font-size: 1.29em;
+                line-height: 1.25;
+                margin: 0.5375em 0;
+            }
+
+            h4 {
+                font-size: 1.145em;
+                line-height: 1.25;
+                margin: 0.5em 0;
+            }
+
+            h5 {
+                font-size: 1em;
+                line-height: 1.285;
+                margin: 0.65em 0;
+            }
+
+            h6 {
+                font-size: 0.875em;
+                font-weight: 900;
+                line-height: 1.5;
+                margin: 1.5em 0;
+            }
+
+            a.cloud7,
+            a.cloud8,
+            a.work,
+            .blurb h4 a:link,
+            .blurb h4 img,
+            .delete a,
+            .splash .browse li a:before {
+                color: #eed49f;
+            }
+
+            .delete a:hover {
+                color: #e5c890;
+            }
+
+            hr,
+            .userstuff hr {
+                border: 0;
+                border-bottom: 2px solid;
+                color: #cdd6f4;
+                margin: 1.5em auto;
+            }
+
+            #inner.wrapper {
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+
+            #inner.wrapper #main.works-show.region,
+            #inner.wrapper #main.chapters-show.region {
+                padding-top: 1em;
+                padding-inline: 4rem;
+                background: #11111b;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                overflow-wrap: break-word;
+                box-sizing: border-box;
+            }
+
+            #inner.wrapper #main.works-show.region .wrapper,
+            #inner.wrapper #main.chapters-show.region .wrapper {
+                width: 100%;
+                padding: 0.75rem;
+                box-sizing: border-box;
+            }
+
+            input,
+            textarea {
+                background: #11111b;
+                border-color: #45475a;
+                border-radius: 0.25em;
+                color: #cdd6f4;
+            }
+
+            input:focus,
+            textarea:focus,
+            form blockquote.userstuff,
+            form.search input:focus[type='text'] {
+                background: #11111b;
+                border-color: #89b4fa;
+            }
+
+            input:hover,
+            form.search input:hover[type='text'] {
+                background: #11111b;
+                border-color: #cdd6f4;
+            }
+
+            th,
+            .secondary,
+            .thread .even,
+            .system .tweet_list li,
+            .ui-datepicker tr:hover {
+                background: #11111b;
+            }
+
+            .heading,
+            .group .heading {
+                background: none;
+                color: #cdd6f4;
+            }
+
+            span.claimed,
+            span.delete,
+            span.requested,
+            span.unread,
+            .draggable,
+            .droppable,
+            .replied,
+            .required,
+            .blurb h4 img {
+                color: #b4befe;
+            }
+
+            #main .verbose legend {
+                background: transparent;
+            }
+
+            #main .work {
+                max-width: 100%;
+                min-width: 0;
+            }
+
+            .group,
+            .group .group,
+            .region,
+            fieldset,
+            fieldset fieldset ul,
+            form dl,
+            .verbose fieldset,
+            ul.notes,
+            table,
+            th,
+            td:hover,
+            tr:hover,
+            .symbol .question:hover,
+            .ui-sortable li,
+            .required .autocomplete,
+            .autocomplete .notice,
+            div.dynamic,
+            .dynamic form,
+            #ui-datepicker-div,
+            .ui-datepicker table {
+                background: #1e1e2e;
+                border-color: #585b70;
+                color: #cdd6f4;
+            }
+
+            .picture .header {
+                border: 0;
+            }
+
+            .dropdown-toggle {
+                border-radius: 0 !important;
+            }
+
+            .secondary {
+                border: 0;
+            }
+
+            ul.expandable.secondary {
+                border: 0;
+                background: #585b70;
+            }
+
+            .toggled form {
+                background: #1e1e2e;
+                border: 0;
+            }
+
+            li.blurb,
+            fieldset,
+            form dl {
+                border: 0;
+                padding: 1em;
+                overflow: hidden;
+            }
+
+            legend .action:link {
+                margin: 0 0.5em;
+            }
+
+            button,
+            input[type='submit'],
+            .action,
+            .action:link,
+            .actions a,
+            .actions a:link,
+            .actions input,
+            .actions label,
+            .current,
+            .flash.notice .action {
+                background: #313244;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            #outer .current,
+            legend .action:link:active,
+            input:active[type='submit'],
+            a.current,
+            label.action:active,
+            span.unread,
+            span.claimed,
+            .action a:active,
+            .actions a:active,
+            .actions a:active:visited,
+            .current a:visited,
+            .flash.notice .action:active,
+            .flash.notice .action:active:visited,
+            .replied,
+            .own,
+            .draft,
+            .draft .unread,
+            .child,
+            .unwrangled,
+            .unreviewed,
+            .ui-sortable li:hover {
+                background: #181825;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            legend .action:link:hover,
+            input:hover[type='submit'],
+            label.action:hover,
+            input.button:hover,
+            .action:hover,
+            .action a:hover,
+            .action a:link:hover,
+            .actions a:focus,
+            .actions a:hover,
+            .actions a:link:hover,
+            .actions a:visited:hover,
+            .actions a:focus:visited,
+            .actions input:hover,
+            .actions input:focus,
+            .flash.notice .action:hover,
+            .flash.notice .action:visited:hover,
+            .work.index.group .actions li a:hover,
+            .work.index.group .actions li a:visited:hover {
+                background: #45475a;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            .actions a:visited,
+            .action a:link,
+            .action a:visited,
+            .blurb h4 a:visited,
+            .listbox .heading a:visited {
+                color: #585b70;
+            }
+
+            dl.meta {
+                border: 0;
+            }
+
+            ul.actions,
+            p.actions,
+            li.actions,
+            span.actions,
+            fieldset.actions,
+            dd.actions {
+                padding: 0.429em 0.25em 0.25em 0;
+                float: right;
+                text-align: center;
+            }
+
+            .action.top a:active {
+                background: transparent;
+            }
+
+            #header {
+                background: #11111b !important;
+                margin: 0;
+                color: #cdd6f4;
+                font-size: 0.875em;
+                position: relative;
+            }
+
+            #header .heading {
+                float: left;
+                padding: 0.5em;
+            }
+
+            #header li {
+                display: block;
+                float: left;
+                position: relative;
+            }
+
+            #header a,
+            #header a:visited,
+            #header .heading a:visited,
+            #header .primary .open a,
+            #header .primary .open a:focus,
+            #header .primary .dropdown:hover a,
+            #header .user a:focus,
+            .filters dt a:hover {
+                color: #cdd6f4;
+            }
+
+            #header .actions a:hover,
+            #header .actions a:focus,
+            #header .dropdown:hover a,
+            #header .open a {
+                background: #bac2de;
+            }
+
+            #header .actions a {
+                background: transparent;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            #header #greeting .actions a {
+                color: #cdd6f4;
+            }
+
+            #header .actions a:active,
+            #header .actions a:focus {
+                background: transparent;
+                color: #cdd6f4;
+            }
+
+            #header .actions a:hover,
+            #header .dropdown:hover a,
+            #header .dropdown a:focus,
+            #header .user .open a:focus {
+                background: #585b70;
+                color: #cdd6f4;
+            }
+
+            #header .dropdown .menu a,
+            #greeting .dropdown .menu a {
+                background: #585b70;
+                border-color: #585b70;
+                color: #cdd6f4;
+                display: block;
+                padding: 0.75em 0.5em 0.75em 0.5em;
+            }
+
+            #header .dropdown .menu a:focus,
+            #header .dropdown .menu a:hover {
+                background: #11111b;
+                color: #cdd6f4;
+            }
+
+            #header .dropdown .menu a:hover,
+            #greeting .dropdown .menu a:hover {
+                border-radius: 0;
+            }
+
+            #header .dropdown .menu li {
+                border: 0;
+                margin: auto;
+            }
+
+            #header .heading a {
+                color: #cdd6f4;
+                font-size: 1.714em;
+                line-height: 1.75;
+            }
+
+            #header .heading sup {
+                font-size: 0.583em;
+                font-style: italic;
+            }
+
+            #header .logo {
+                float: left;
+                height: 42px;
+            }
+
+            #header .heading a:active {
+                color: #e5c890;
+            }
+
+            #header .landmark {
+                clear: none;
+                font-size: 0;
+                border: 0;
+            }
+
+            #header .primary {
+                background: #313244;
+                color: #1e1e2e;
+                padding: 0;
+                width: 100%;
+            }
+
+            #header .menu,
+            #greeting .menu {
+                padding: 0;
+            }
+
+            #header #greeting img,
+            #header fieldset,
+            #header form,
+            #header p,
+            #header .heading a:focus,
+            #header .heading a:hover,
+            #header .heading a:hover:visited,
+            #tos_prompt .heading {
+                color: #f5e0dc;
+            }
+
+            #header ul.primary {
+                border-radius: 0 !important;
+                width: 100%;
+            }
+
+            #header .menu li {
+                border-bottom: 0;
+                margin: 0 0.25em;
+                text-align: left;
+            }
+
+            #header .menu li:last-child {
+                border-bottom: 0;
+            }
+
+            #header .open a,
+            #small_login {
+                background: #11111b;
+            }
+
+            #header .user a {
+                background: transparent;
+                border: transparent;
+            }
+
+            #header .user .dropdown-toggle {
+                border-radius: 0.25em 0.25em 0 0 !important;
+            }
+
+            #outer .group .heading,
+            fieldset.listbox .heading,
+            .userstuff .heading,
+            .userstuff h2 {
+                background: none;
+                color: #cdd6f4;
+            }
+
+            #header .search {
+                float: right;
+                color: #cdd6f4;
+                margin-right: 0.25em;
+            }
+
+            #header #search .text,
+            #header #search .button {
+                border: 0;
+            }
+
+            #header #search .text {
+                margin: 0.3em 0.43em;
+            }
+
+            #header #search .button {
+                border-radius: 1em;
+                margin: 0;
+            }
+
+            #header #search .text,
+            #header #search .text:active {
+                background: #1e1e2e;
+            }
+
+            #header #search input:focus,
+            #header #search .text:focus,
+            #header #search .text:hover {
+                background: #313244;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            #header form.search input[type='text'] {
+                border-radius: 1em;
+            }
+
+            #header .search {
+                display: none !important;
+            }
+
+            #greeting {
+                padding: 0.5em 0;
+            }
+
+            #greeting .user > li {
+                margin: 0 0.125em;
+            }
+
+            #greeting .menu {
+                right: 0;
+            }
+
+            #header input,
+            #header #search > *,
+            #header #search .submit {
+                display: inline;
+                float: none;
+            }
+
+            #header a,
+            #header fieldset,
+            #header form,
+            #header p,
+            #header li,
+            #header h1,
+            #small_login dl {
+                background: transparent;
+                font-size: 100%;
+                border: 0;
+                padding: 0;
+                margin: 0;
+                border-radius: 0;
+            }
+
+            #header h2 {
+                border-top: 0;
+                clear: both;
+                color: #cdd6f4;
+                display: block;
+                font-size: 1.714em;
+                line-height: 1.5;
+                margin: 0;
+                padding: 0 0.375em;
+            }
+
+            .splash .module h3 {
+                border: 0;
+                color: #f5e0dc;
+            }
+
+            .splash .browse li a,
+            .splash .favorite a {
+                border-radius: 0;
+            }
+
+            .splash .comment .userstuff {
+                margin: inherit;
+            }
+
+            .splash .favorite li a {
+                background: #313244;
+                border: 1px solid transparent;
+            }
+
+            .splash .favorite li a:hover {
+                background: #eee;
+                border-color: #eee;
+                color: #313244;
+            }
+
+            .splash .favorite li a:visited {
+                color: #b4befe;
+            }
+
+            .splash .favorite li:nth-of-type(odd) a:focus,
+            .splash .favorite li:nth-of-type(odd) a:hover,
+            .splash .favorite li:nth-of-type(odd) a:visited:hover {
+                background: #eee;
+                border-color: #eee;
+                color: #313244;
+            }
+
+            .splash .news li {
+                border: 0;
+            }
+
+            .abbreviated h4.byline {
+                padding-left: 83px !important;
+            }
+
+            #outer #footer {
+                background: #11111b;
+            }
+
+            #outer .region,
+            #footer .group {
+                background: none;
+            }
+
+            #footer {
+                border: 0;
+            }
+
+            #footer a:hover,
+            #footer a:focus {
+                background: transparent;
+                color: #f5e0dc;
+            }
+
+            #footer ul.actions {
+                background-color: #1e1e2e;
+            }
+
+            #workskin {
+                padding: 0;
+                margin: 0;
+                max-width: fit-content;
+            }
+
+            .work.meta.group {
+                border-radius: 0.25rem;
+                padding: 1rem;
+                margin-top: 1rem;
+            }
+
+            #chapters .userstuff a,
+            #chapters .userstuff p,
+            #chapters .userstuff ol,
+            #chapters .userstuff ul {
+                font-family: 'Charter', 'IBM Plex Serif', 'Palatino Linotype',
+                    'Palatino', 'Literata', 'Georgia', serif;
+                font-size: 1.25em;
+            }
+
+            #chapters .userstuff a {
+                font-size: revert;
+            }
+
+            #chapters .userstuff blockquote {
+                margin-left: 5em;
+                margin-right: 5em;
+            }
+
+            #chapters .userstuff blockquote p {
+                margin-left: 1em;
+                margin-right: 1em;
+            }
+
+            #chapters .userstuff code {
+                font-size: 0.8em;
+            }
+
+            #chapters .userstuff ol {
+                line-height: inherit;
+            }
+
+            #chapters .userstuff p {
+                margin-left: 2.5em;
+                margin-right: 2.5em;
+            }
+
+            #chapters .userstuff pre {
+                font-size: 1em;
+            }
+
+            .notes.module,
+            .summary.module {
+                background: #1e1e2e;
+                border-radius: 0.5em;
+                font-size: 0.65rem;
+                margin-top: 1rem !important;
+            }
+
+            .userstuff h3 {
+                border-bottom: 1px solid #78777d;
+            }
+
+            div.preface {
+                border-radius: 0.25rem;
+                background: transparent;
+                margin: 0;
+                margin-block: 1rem;
+                padding: 0.75rem;
+                float: none;
+            }
+
+            div.preface .module {
+                float: none;
+                margin: 0;
+                padding: 1rem;
+                width: auto;
+            }
+
+            .chapter .preface {
+                border: none;
+            }
+
+            .preface h3 {
+                background: transparent;
+                border-bottom: 0;
+            }
+
+            .preface h2.title {
+                display: block;
+                border-bottom: 0;
+                clear: right;
+            }
+
+            div.preface .title,
+            div.preface .byline {
+                border: 0;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .preface a:hover {
+                text-decoration: none;
+            }
+
+            .preface blockquote {
+                border: 0;
+            }
+
+            div.preface .notes,
+            div.preface .summary,
+            div.preface .series,
+            div.preface .children {
+                min-height: 5em;
+            }
+
+            div.preface .series ul,
+            div.preface .children ul {
+                padding: 0 0.65em;
+            }
+
+            div.preface .associations {
+                margin-bottom: 1.5em;
+            }
+
+            div.preface .jump {
+                margin-top: 1.5em;
+            }
+
+            div.summary.module {
+                margin-top: 2em;
+            }
+
+            div.afterword {
+                margin-bottom: 2.5em;
+            }
+
+            div.afterword .series h3,
+            div.afterword .children h3 {
+                border-bottom: none;
+            }
+
+            #add_comnent,
+            #add_comment div.comment,
+            div.comment {
+                border: 0;
+            }
+
+            #add_comment div.comment,
+            fieldset fieldset,
+            .comment fieldset,
+            .post fieldset fieldset {
+                background: none;
+            }
+
+            li.comment {
+                background: #11111b !important;
+                border: transparent;
+                border-radius: 0.25em;
+                margin: 1em 0;
+                padding: 0.5em 1em;
+            }
+
+            .actions li label {
+                display: revert;
+            }
+
+            .comment div.icon {
+                margin: -1.5em 0.75em 0.5em 0;
+                border: 0;
+            }
+
+            .comment h4.byline {
+                margin-top: 0.375em;
+            }
+
+            .comment .userstuff {
+                margin: 1em 0;
+                min-height: 3.3em;
+            }
+
+            a.tag:hover {
+                background: transparent;
+            }
+
+            .bookmark.blurb .commas a.tag,
+            .series.blurb .commas a.tag,
+            .work.blurb .commas a.tag,
+            .work.meta .commas a.tag {
+                background: #313244;
+                border: 1px solid transparent;
+                border-radius: 0.75em;
+                color: #eee;
+                display: inline-block;
+                font-size: 0.9em;
+                margin: 1px 0;
+                overflow: hidden;
+                padding: 0.5px 6px;
+                text-decoration: none;
+                text-overflow: ellipsis;
+            }
+
+            .work.meta .autocomplete li.added.tag {
+                background: #313244;
+                border: 1px solid transparent;
+                border-radius: 0.75em;
+                color: #eee;
+                display: inline-block;
+                font-size: 0.9em;
+                margin: 1px 6px 1px 0;
+                overflow: hidden;
+                padding: 1px 2px 1px 9px;
+                text-decoration: none;
+                text-overflow: ellipsis;
+            }
+
+            .bookmark.blurb .commas a.tag:hover,
+            .series.blurb .commas a.tag:hover,
+            .work.blurb .commas a.tag:hover,
+            .work.meta .commas a.tag:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas a.tag:visited,
+            .series.blurb .commas a.tag:visited,
+            .work.blurb .commas a.tag:visited,
+            .work.meta .commas a.tag:visited,
+            .work.meta .autocomplete li.added.tag:visited {
+                background: #313244;
+                border-color: #313244;
+                color: #a6adc8;
+            }
+
+            .bookmark.blurb .commas a.tag:visited:hover,
+            .series.blurb .commas a.tag:visited:hover,
+            .work.blurb .commas a.tag:visited:hover,
+            .work.meta .commas a.tag:visited:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.characters a,
+            .series.blurb .commas li.characters a,
+            .work.blurb .commas li.characters a,
+            .work.meta .character.tags .commas li a,
+            .work.meta .character li.added.tag {
+                background: #a6e3a1;
+                border-color: #a6e3a1;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.characters a:hover,
+            .series.blurb .commas li.characters a:hover,
+            .work.blurb .commas li.characters a:hover,
+            .work.meta .character.tags .commas li a:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.characters a:visited,
+            .series.blurb .commas li.characters a:visited,
+            .work.blurb .commas li.characters a:visited,
+            .work.meta .character.tags .commas li a:visited,
+            .work.meta .character li.added.tag:visited {
+                background: rgb(137.6950819672, 218.0950819672, 131.1049180328);
+                border-color: rgb(
+                    137.6950819672,
+                    218.0950819672,
+                    131.1049180328
+                );
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.characters a:visited:hover,
+            .series.blurb .commas li.characters a:visited:hover,
+            .work.blurb .commas li.characters a:visited:hover,
+            .work.meta .character.tags .commas li a:visited:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.relationships a,
+            .series.blurb .commas li.relationships a,
+            .work.blurb .commas li.relationships a,
+            .work.meta .relationship.tags .commas li a,
+            .work.meta .relationship li.added.tag {
+                background: #89b4fa;
+                border-color: #89b4fa;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.relationships a:hover,
+            .series.blurb .commas li.relationships a:hover,
+            .work.blurb .commas li.relationships a:hover,
+            .work.meta .relationship.tags .commas li a:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.relationships a:visited,
+            .series.blurb .commas li.relationships a:visited,
+            .work.blurb .commas li.relationships a:visited,
+            .work.meta .relationship.tags .commas li a:visited,
+            .work.meta .relationship li.added.tag:visited {
+                background: rgb(99.8731707317, 156.4024390244, 248.4268292683);
+                border-color: rgb(
+                    99.8731707317,
+                    156.4024390244,
+                    248.4268292683
+                );
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.relationships a:visited:hover,
+            .series.blurb .commas li.relationships a:visited:hover,
+            .work.blurb .commas li.relationships a:visited:hover,
+            .work.meta .relationship.tags .commas li a:visited:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.warnings a,
+            .series.blurb .commas li.warnings a,
+            .work.blurb .commas li.warnings a,
+            .work.meta .warning.tags .commas li a {
+                background: #f38ba8;
+                border-color: #f38ba8;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.warnings a:hover,
+            .series.blurb .commas li.warnings a:hover,
+            .work.blurb .commas li.warnings a:hover,
+            .work.meta .warning.tags .commas li a:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.warnings a:visited,
+            .series.blurb .commas li.warnings a:visited,
+            .work.blurb .commas li.warnings a:visited,
+            .work.meta .warning.tags .commas li a:visited {
+                background: rgb(239.41875, 104.38125, 142.0359375);
+                border-color: rgb(239.41875, 104.38125, 142.0359375);
+                color: #1e1e2e;
+            }
+
+            .bookmark.blurb .commas li.warnings a:visited:hover,
+            .series.blurb .commas li.warnings a:visited:hover,
+            .work.blurb .commas li.warnings a:visited:hover,
+            .work.meta .warning.tags .commas li a:visited:hover {
+                background: #9399b2;
+                border-color: #9399b2;
+                color: #1e1e2e;
+            }
+
+            .work.meta .category.tags .commas a,
+            .work.meta .fandom.tags .commas a,
+            .work.meta .rating.tags .commas a {
+                background: transparent;
+                border: 0;
+                border-bottom: 1px dotted #eee;
+                border-radius: 0;
+                font-size: revert;
+                margin: revert;
+                padding: inherit;
+            }
+
+            .work.meta .category.tags .commas a:hover,
+            .work.meta .category.tags .commas a:visited:hover,
+            .work.meta .fandom.tags .commas a:hover,
+            .work.meta .fandom.tags .commas a:visited:hover,
+            .work.meta .rating.tags .commas a:hover,
+            .work.meta .rating.tags .commas a:visited:hover {
+                border-bottom: 1px dotted #e5c890;
+                color: #1e1e2e;
+            }
+
+            .work.meta .category.tags .commas a:visited,
+            .work.meta .fandom.tags .commas a:visited,
+            .work.meta .rating.tags .commas a:visited {
+                border-bottom: 1px dotted #a6adc8;
+                border-radius: 0;
+                color: #a6adc8;
+            }
+
+            #main li.blurb {
+                background: #11111b;
+                border-color: transparent;
+                border-radius: 0.25em;
+                padding: 0.5em 1em;
+                margin: 1em 0;
+            }
+
+            .bookmark .user {
+                border: 0;
+                margin-top: 0.65em;
+                padding: 0.429em 0.75em;
+                overflow: hidden;
+            }
+
+            .blurb .datetime,
+            .datetime {
+                font-size: small;
+                line-height: 1.25;
+            }
+
+            li.blurb .tags {
+                max-height: 8em;
+                overflow-y: auto;
+            }
+
+            ul.required-tags,
+            .blurb .icon,
+            .bookmark .status span {
+                border: 0;
+                opacity: 0.9;
+            }
+
+            .blurb dl.stats {
+                margin-top: 1em;
+                margin-bottom: 0.55em;
+                line-height: 1.25;
+            }
+
+            .blurb blockquote {
+                margin: 0.5em auto 1em auto;
+            }
+
+            .blurb .actions li {
+                padding: 0 0.25em 0 0;
+            }
+
+            .blurb .header .heading {
+                margin: 0.375em 5.25em 0 65px;
+            }
+
+            .commas li::after {
+                content: none;
+            }
+
+            .commas li.last {
+                padding: 0;
+            }
+
+            .meta dd ul li {
+                padding-right: 0.5em;
+                padding-left: 0;
+            }
+
+            .bookmark.blurb .meta.tags.commas a.tag {
+                background: revert;
+                border: 0;
+                border-bottom: 1px dotted #fff;
+                border-radius: revert;
+                color: #cdd6f4;
+                display: inline;
+                padding: revert;
+            }
+
+            .bookmark.blurb .meta.tags.commas a.tag:hover {
+                color: #e5c890;
+            }
+
+            .meta.tags.commas .tag:hover,
+            .meta.tags.commas .tag:visited:hover {
+                background: transparent;
+            }
+
+            .summary.userstuff blockquote {
+                margin: 0 1.5em !important;
+                padding: 0.25em 0.75em;
+            }
+
+            .tags.commas {
+                margin: 0.5em 0;
+            }
+
+            .user.module.group {
+                background: transparent;
+                margin-top: 0.75em;
+                padding: 0.375em 0 0 0;
+            }
+
+            #modal {
+                background: #1e1e2e;
+                border: 0;
+                border-radius: 0.5em;
+                color: #eee;
+            }
+
+            #modal .content {
+                border: 0;
+            }
+
+            #modal .footer {
+                bottom: 0;
+                height: 44px;
+                left: 0;
+                line-height: 44px;
+                padding: 0.5em 1em;
+                right: 0;
+                position: absolute;
+            }
+
+            #modal .footer .action.modal-closer {
+                bottom: 1em;
+                position: absolute;
+                right: 1em;
+            }
+
+            #modal .footer a.action.modal-closer:active {
+                background: #0b0b0b;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            #modal .footer a.action.modal-closer:hover,
+            #modal .footer a.action.modal-closer:focus,
+            #modal .footer a.action.modal-closer:visited:hover {
+                background: #4e4e5e;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            .error,
+            .comment_error,
+            .kudos_error,
+            .LV_invalid,
+            .LV_invalid_field input.LV_invalid_field:hover,
+            input.LV_invalid_field:active,
+            textarea.LV_invalid_field:hover,
+            textarea.LV_invalid_field:active,
+            .qtip-content,
+            .system .intro {
+                background: #1e1e2e;
+                border-color: #f5e0dc;
+                color: #cdd6f4;
+            }
+
+            .flash,
+            .notice {
+                background: transparent;
+                border-color: #f5e0dc;
+                color: #eee;
+                padding: 0.5em 0.375em;
+            }
+
+            #outer,
+            .javascript,
+            #tos_prompt,
+            .announcement input[type='submit'] {
+                background: #1e1e2e;
+            }
+
+            form dd.required,
+            .event.announcement .userstuff a,
+            .filters .expander {
+                color: #eee;
+            }
+
+            .announcement .userstuff a,
+            .announcement .userstuff a:link,
+            .announcement .userstuff a:visited:hover {
+                color: #f5e0dc;
+            }
+
+            .announcement .userstuff a:visited {
+                color: #b4befe;
+            }
+
+            .announcement .userstuff a:hover,
+            .announcement .userstuff a:focus {
+                color: #5897d4;
+            }
+
+            .bookmark .status span {
+                border-color: #78777d;
+            }
+
+            .dropdown {
+                background: none;
+            }
+
+            .mce-container input:focus {
+                background: #f3efec;
+            }
+
+            .help.symbol.question.modal.modal-attached {
+                font-size: 0.75em;
+            }
+
+            .search [role='tooltip'] {
+                background: #1e1e2e;
+                border: 1px solid #78777d;
+                border-radius: 0.25em;
+                color: #eee;
+                margin: 0.65em auto;
+                padding: 0.25em 0.375em;
+            }
+
+            .splash .favorite li:nth-of-type(odd) a,
+            .ui-datepicker td:hover,
+            #tos_prompt .heading,
+            #tos_prompt [disabled] {
+                background: #11111b;
+            }
+
+            .symbol .question,
+            .qtip-content {
+                background: transparent;
+                color: #f5e0dc;
+            }
+
+            #dashboard,
+            #dashboard.own {
+                border-color: #f5e0dc;
+            }
+
+            #dashboard a,
+            #dashboard span {
+                color: #cdd6f4;
+            }
+
+            #dashboard a:active,
+            #dashboard .current {
+                background: #0b0b0b;
+                border-color: transparent;
+                color: #cdd6f4;
+            }
+
+            #dashboard a:focus,
+            #dashboard a:hover {
+                background: #4e4e5e;
+                color: #cdd6f4;
+            }
+
+            #dashboard ul {
+                border: 0;
+            }
+
+            #dashboard.own {
+                background: #181825;
+                border-top: 0em solid transparent;
+                border-bottom: 0em solid transparent;
+                font-size: 0.85em;
+                margin: 1.75em;
+                padding-block: 0.25em;
+                padding-inline: 1rem;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #dashboard.own ul {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #main.dashboard {
+                margin: 1rem;
+            }
+
+            .statistics .fandom.listbox.group {
+                background: transparent;
+                border: #11111b;
+                border-radius: 0.25em;
+                margin: 1em 0;
+            }
+
+            .statistics .fandom ul.index.group {
+                background: #11111b !important;
+                border-radius: inherit;
+                padding: 0.15em 0.65em;
+            }
+
+            .statistics .listbox h5.heading {
+                font-size: 1.1em;
+                margin: 0.75em 0 !important;
+            }
+
+            .statistics .index dd {
+                margin: 1em 0 0.5em 0 !important;
+            }
+
+            .statistics .index li {
+                border-radius: inherit;
+                margin: 0.5em 0;
+                padding: 0.5em;
+            }
+
+            .statistics .index li:nth-of-type(even) {
+                background: #313244;
+            }
+
+            .listbox,
+            fieldset fieldset.listbox {
+                clear: right;
+                background: #16151b;
+                border: 0;
+                border-radius: 0.25em;
+                padding: 0;
+                margin: 0.75em auto;
+                overflow: hidden;
+            }
+
+            #edit-multiple-works a.check_all,
+            #edit-multiple-works a.check_none {
+                margin: -2px 0.15em 0 0.15em;
+            }
+
+            #edit-multiple-works .fandom.listbox {
+                border-color: transparent;
+                border-radius: 0.25em;
+                background: transparent;
+            }
+
+            #edit-multiple-works .fandom.listbox ul.actions {
+                margin: 0 0 0.5em 0;
+            }
+
+            #edit-multiple-works .fandom.listbox ul.actions li {
+                margin: 0;
+            }
+
+            #user-works,
+            #user-works ul,
+            #user-series,
+            #user-series ol,
+            #user-bookmarks,
+            #user-bookmarks ol {
+                background: transparent;
+                border-color: transparent;
+            }
+
+            dl.index dd,
+            dl.index dt {
+                background: transparent;
+                border: transparent;
+            }
+
+            dl.index dd {
+                margin: 0.25em 0.25em 1.25em 0;
+            }
+
+            .concise label.action {
+                background: transparent;
+            }
+
+            .listbox ul.index.concise {
+                background: #11111b;
+                border-radius: inherit;
+            }
+
+            .bookmark .actions {
+                padding: 0;
+            }
+
+            .bookmark.blurb p.status {
+                right: 0.5em;
+            }
+
+            .bookmark .datetime {
+                top: 30px;
+            }
+
+            .bookmark div.user,
+            .bookmark div.recent {
+                background-color: #11111b;
+                border: 0;
+            }
+
+            .bookmark.listbox.group,
+            .bookmark.listbox.group ul.index.group,
+            .parent.listbox.group,
+            .work.listbox.group,
+            .work.listbox.group ul.index.group {
+                background: transparent;
+                border: 0;
+            }
+
+            .collection .header.module.group {
+                background: transparent;
+            }
+
+            .listbox .heading a.tag:visited:hover {
+                background: transparent;
+                color: #e5c890;
+            }
+
+            .listbox .index {
+                background: transparent;
+            }
+
+            .home .header h2 {
+                border: 0;
+            }
+
+            .home .header ul.actions {
+                max-width: 70%;
+                text-align: right;
+            }
+
+            .profile .primary,
+            .home .primary {
+                float: none;
+            }
+
+            .medium.listbox .index.group {
+                margin: 0.5em 0;
+            }
+
+            .tags.commas.index.group {
+                background: transparent;
+            }
+
+            #bookmark-filters fieldset,
+            #work-filters fieldset {
+                margin: 0 0.65em;
+                padding: 0 0.65em;
+            }
+
+            #bookmark-filters fieldset dl,
+            #work-filters fieldset dl {
+                margin: 0.65em 0;
+            }
+
+            #collection_filters_title_autocomplete,
+            #collection_filters_fandom_autocomplete,
+            #bookmark_search_excluded_bookmark_tag_names_autocomplete,
+            #bookmark_search_excluded_tag_names_autocomplete,
+            #bookmark_search_other_bookmark_tag_names_autocomplete,
+            #bookmark_search_other_tag_names_autocomplete,
+            #bookmark_search_bookmark_query,
+            #bookmark_search_bookmarkable_query,
+            #work_search_excluded_tag_names_autocomplete,
+            #work_search_other_tag_names_autocomplete,
+            #work_search_query,
+            #work_search_words_from,
+            #work_search_words_to,
+            #work_search_date_from,
+            #work_search_date_to {
+                padding: 1px 0 1px 0;
+                width: 99%;
+            }
+
+            #include_rating_tags,
+            #exclude_rating_tags,
+            #include_archive_warning_tags,
+            #exclude_archive_warning_tags,
+            #include_category_tags,
+            #exclude_category_tags,
+            #include_fandom_tags,
+            #exclude_fandom_tags,
+            #include_character_tags,
+            #exclude_character_tags,
+            #include_relationship_tags,
+            #exclude_relationship_tags,
+            #include_freeform_tags,
+            #exclude_freeform_tags,
+            #include_tag_tags,
+            #exclude_tag_tags {
+                font-size: 0.9em;
+            }
+
+            .filters .group dt.bookmarker,
+            .filters .group dt.language,
+            .filters .group dt.search,
+            .filters .group dt.options {
+                margin: 0.2em 0 0 0;
+                padding: 0.25em 0;
+            }
+
+            .filters .group dd.language,
+            .filters .group dd.search,
+            .filters .group dd.options,
+            .filters .more dd.search,
+            dd.options ul li {
+                margin: 0.2em 0;
+            }
+
+            dt.include.heading,
+            dt.exclude.heading,
+            dt.more.heading {
+                margin-bottom: 0.15em;
+            }
+
+            dd.include.tags.group dl,
+            dd.exclude.tags.group dl,
+            dd.more.group dl,
+            dt.search dd {
+                margin: 0;
+            }
+
+            .autocomplete .dropdown ul li:hover,
+            .autocomplete .dropdown li.selected {
+                background: transparent;
+                color: #f5e0dc;
+            }
+
+            .filters .expander,
+            .filters .expanded .expander {
+                background: transparent;
+            }
+
+            .filters .expander::before {
+                content: '\23F5\0A0';
+            }
+
+            .filters .expanded .expander::before {
+                content: '\23F7\0A0';
+            }
+
+            .filters button.expander {
+                padding: 0;
+            }
+
+            #work_crossover li,
+            #work_complete li,
+            .filters .tags li {
+                padding-left: 0.75em;
+            }
+
+            form dl dt,
+            .filters dt {
+                border-bottom: 0;
+            }
+
+            form.search input[type='text'] {
+                border-color: #78777d;
+                border-radius: 0.25em;
+            }
+
+            fieldset,
+            form.verbose legend,
+            .verbose form legend,
+            .filters .group dt.bookmarker {
+                border: 0;
+            }
+
+            fieldset fieldset.listbox,
+            .group.listbox {
+                background: transparent;
+                border-color: transparent;
+                border-radius: 0.25em;
+            }
+
+            .group.listbox .index {
+                background: #11111b;
+                border-radius: 0.25em;
+            }
+
+            form dl dt,
+            form.single fieldset {
+                border-color: #78777d;
+            }
+
+            .required-tags .rating-notrated,
+            .required-tags .rating-general-audience,
+            .required-tags .rating-explicit,
+            .required-tags .rating-mature,
+            .required-tags .rating-teen,
+            .required-tags .category-femslash,
+            .required-tags .category-gen,
+            .required-tags .category-slash,
+            .required-tags .category-none,
+            .required-tags .category-het,
+            .required-tags .category-multi,
+            .required-tags .category-other,
+            .required-tags .complete-no,
+            .required-tags .complete-yes,
+            .required-tags .warning-yes,
+            .required-tags .warning-no,
+            .required-tags .warning-choosenotto,
+            .required-tags .external-work,
+            .status .private .text,
+            .status .public,
+            .status .hidden,
+            .status .rec,
+            .status .count,
+            .index .skins .icon,
+            .index .mystery .icon,
+            .index .tag .icon,
+            .index .tagset .icon,
+            .comment .icon .anonymous,
+            .comment .icon .visitor,
+            .abbreviated .icon .visitor,
+            .abbreviated .icon .anonymous,
+            .skins .primary .icon,
+            .admin .primary .icon,
+            .tagset .primary .icon,
+            .tag .primary .icon,
+            a.rss span,
+            p.kudos,
+            #symbols-key dl img,
+            #bookmark-symbols-key img,
+            img[src$='/images/skins/iconsets/default/icon_user.png'],
+            img[src$='/images/skins/iconsets/default/icon_collection.png'],
+            img[src$='/images/lockblue.png'] {
+                background-image: url('https://images.squidge.org/images/2024/03/30/AO3_imageset_muted_dark.png');
+                background-size: 200px 835px;
+            }
+
+            #symbols-key dl img,
+            #bookmark-symbols-key img {
+                width: 0 !important;
+                height: 0 !important;
+                padding: 25px 0 0 25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-notrated.png'],
+            img[src$='/images/skins/iconsets/default/category-none.png'],
+            img[src$='/images/skins/iconsets/default/warning-no.png'] {
+                background-position: -150px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-general-audience.png'] {
+                background-position: -50px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-teen.png'] {
+                background-position: 0px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-mature.png'] {
+                background-position: -75px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-explicit.png'] {
+                background-position: -25px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-femslash.png'] {
+                background-position: -25px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-het.png'] {
+                background-position: -75px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-gen.png'] {
+                background-position: -50px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-multi.png'] {
+                background-position: -100px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-other.png'] {
+                background-position: -125px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/warning-choosenotto.png'] {
+                background-position: -125px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/warning-yes.png'] {
+                background-position: -150px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/warning-external-work.png'] {
+                background-position: -75px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/complete-no.png'] {
+                background-position: -100px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/complete-yes.png'] {
+                background-position: -175px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-rec.png'] {
+                background-position: -100px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-public.png'] {
+                background-position: -125px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-private.png'] {
+                background-position: -175px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-hidden.png'] {
+                background-position: -150px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/icon_user.png'],
+            img[src$='/images/skins/iconsets/default/icon_collection.png'],
+            img[src$='/images/lockblue.png'] {
+                width: 0 !important;
+                height: 0 !important;
+            }
+
+            img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 100px 0 0 100px;
+                background-position: 0px -75px;
+            }
+
+            .index img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 55px 0 0 55px;
+                background-position: 0px -525px;
+            }
+
+            .abbreviated
+                img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 75px 0 0 75px;
+                background-position: 0px -375px;
+            }
+
+            #greeting img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 1.786em 0 0 1.786em;
+                background-position: 0 -19px;
+                background-size: 201% !important;
+            }
+
+            img[src$='/images/skins/iconsets/default/icon_collection.png'] {
+                padding: 100px 0 0 100px;
+                background-position: -100px -175px;
+            }
+
+            .index
+                img[src$='/images/skins/iconsets/default/icon_collection.png'] {
+                padding: 55px 0 0 55px;
+                background-position: -55px -525px;
+            }
+
+            img[src$='/images/lockblue.png'] {
+                padding: 15px 0 0 15px;
+                background-position: -155px -305px;
+            }
+
+            #header .logo {
+                content: url('/images/logo.png');
+            }
+
+            dl.stats dt {
+                display: none;
+            }
+
+            .skins .header dl.stats dt {
+                display: inline-block;
+            }
+
+            dl.stats dd:nth-of-type(1)::before {
+                background: url(https://64.media.tumblr.com/fff96d500a04ddf12517a48d83b228d2/b2e751421a20aa0c-a7/s100x200/c848a67de8f463ccdafa5b60948c61a172d5fe24.png);
+            }
+
+            dl.stats dd:nth-of-type(2)::before {
+                background: url(https://64.media.tumblr.com/f835b437a474b4b672a8d4ebe61402b8/8979adde76f2ff05-fb/s100x200/8f86556b6896e96427f5a4a54f0de7be38ddba75.png);
+            }
+
+            dl.stats dd.language::before {
+                display: none !important;
+            }
+
+            dl.stats dd.kudos::before {
+                background: url(https://64.media.tumblr.com/23a3c6f134a96386f50fb8982a353590/8b704f26c7323545-01/s100x200/31e25f0be03646918168c4d49bd2ee9733b2cd59.png);
+            }
+
+            dl.stats dd.words::before {
+                background: url(https://64.media.tumblr.com/fff96d500a04ddf12517a48d83b228d2/b2e751421a20aa0c-a7/s100x200/c848a67de8f463ccdafa5b60948c61a172d5fe24.png);
+            }
+
+            dl.stats dd.chapters::before {
+                background: url(https://64.media.tumblr.com/a8ca48310f24581ae539336583690b26/b2e751421a20aa0c-5c/s100x200/a51b914598b64c3ddf6f705b278f11a68301d443.png);
+            }
+
+            dl.stats dd.comments::before {
+                background: url(https://64.media.tumblr.com/7172c0bbe03a0eef7b236014dc78c905/8b704f26c7323545-78/s250x400/f37ba1ff69b5ef2ad7e5fe66b61fd748badc00d1.png);
+            }
+
+            dl.stats dd.bookmarks::before,
+            dl.stats dd a[href$='bookmarks']::before {
+                background: url(https://64.media.tumblr.com/9b95d189a57699762d2262536e922ece/b2e751421a20aa0c-2a/s100x200/1aabb2ad7b90746f0469aefaa39af5b83728f8b9.png);
+            }
+
+            dl.stats dd.hits::before {
+                background: url(https://64.media.tumblr.com/b2b8862a356132ac1aa41e9e9f0ddd1d/b2e751421a20aa0c-9e/s100x200/dcd2bcb1adbbb8f9e1844b61aee3dd3a653531e3.png);
+            }
+
+            dl.stats dd.collections::before {
+                background: url(https://64.media.tumblr.com/ae825c2ad8071426c298c5b52970e294/b2e751421a20aa0c-18/s100x200/d1eb5dd259e2db588cda2100057c2c8fd9efaaf0.png);
+            }
+
+            dl.work dl.stats dd.published::before {
+                background: url(https://64.media.tumblr.com/7e13419071a7eeb35f48a76c7aa0ba36/b2e751421a20aa0c-5d/s250x400/7f351f60793ad683e4a9dc4de55e4ee4d625f9d2.png);
+            }
+
+            dl.work dl.stats dd.status::before {
+                background: url(https://64.media.tumblr.com/0ef9349a36cf808783e9488a97b64678/b2e751421a20aa0c-10/s250x400/8df1d3da298f875381822968f8e71ed4d7bcae31.png);
+            }
+
+            ul.statistics dl.stats dd.subscriptions::before {
+                background: url(https://64.media.tumblr.com/64db76a65209eff79515dfc23842eb54/fd0b10e0262ddb71-14/s250x400/921de73c3d5bb819f4e3c58c7c45bd4c6edfe55f.png);
+            }
+
+            dl.stats dd.published::before,
+            dl.stats dd.status::before {
+                width: 0px;
+                margin-right: 0px;
+            }
+
+            li.collection dl.stats dd a[href$='collections']::before {
+                background: url(https://64.media.tumblr.com/ae825c2ad8071426c298c5b52970e294/b2e751421a20aa0c-18/s100x200/d1eb5dd259e2db588cda2100057c2c8fd9efaaf0.png);
+            }
+
+            li.collection dl.stats dd a[href$='works']::before {
+                background: url(https://64.media.tumblr.com/f835b437a474b4b672a8d4ebe61402b8/8979adde76f2ff05-fb/s100x200/8f86556b6896e96427f5a4a54f0de7be38ddba75.png);
+            }
+
+            li.collection dl.stats dd a[href$='bookmarks']::before {
+                background: url(https://64.media.tumblr.com/9b95d189a57699762d2262536e922ece/b2e751421a20aa0c-2a/s100x200/1aabb2ad7b90746f0469aefaa39af5b83728f8b9.png);
+            }
+
+            li.collection dl.stats dd a[href$='fandoms']::before {
+                background: url(https://64.media.tumblr.com/0a2f3d28fb850907a859726916e04e6f/8979adde76f2ff05-48/s250x400/926b1499363f66438d02fdc8bbea5ce610a75395.png);
+            }
+
+            ul.statistics dl.stats dd::before,
+            li.work dl.stats dd::before,
+            li.bookmark dl.stats dd::before,
+            dl.work dl.stats dd::before,
+            .collection dl.stats dd a[href$='collections']::before,
+            li.collection dl.stats dd a[href$='works']::before,
+            li.collection dl.stats dd a[href$='bookmarks']::before,
+            li.collection dl.stats dd a[href$='fandoms']::before,
+            li.series
+                dl.stats
+                dd:not(.language):not(.words):not(.chapters):not(
+                    .collections
+                ):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(
+                    .published
+                ):not(.subscriptions):nth-of-type(1)::before,
+            li:not(.collection)
+                dl.stats
+                dd:not(.language):not(.words):not(.chapters):not(
+                    .collections
+                ):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(
+                    .published
+                ):not(.subscriptions):nth-of-type(2)::before,
+            dl.stats dd:not(.bookmarks) a[href$='bookmarks']::before {
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                content: ' ';
+                background-size: 14px 14px !important;
+                margin-right: 5px;
+            }
+        </style>
+        <style type="text/css" media="(prefers-color-scheme: light)">
+            body {
+                font-family: 'IBM Plex Sans', 'Proxima Nova', 'Helvetica Neue',
+                    'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont',
+                    Verdana, Helvetica, sans-serif;
+            }
+
+            input,
+            textarea,
+            blockquote,
+            blockquote.userstuff,
+            .blurb blockquote,
+            .dropdown,
+            .expander,
+            .toggled form {
+                font-family: 'IBM Plex Sans', 'Proxima Nova', 'Helvetica Neue',
+                    'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont',
+                    Verdana, Helvetica, sans-serif;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            .heading,
+            .bookmark .user .meta {
+                font-family: 'Charter', 'IBM Plex Serif', 'Palatino', 'Georgia',
+                    serif;
+            }
+
+            kbd,
+            tt,
+            code,
+            var,
+            pre,
+            samp {
+                font-family: 'Fira Code', 'Source Code Pro', 'Menlo', 'Monaco',
+                    'Consolas', Courier, monospace;
+                font-size: 0.9em;
+            }
+
+            * {
+                box-shadow: none !important;
+                outline: none !important;
+                text-shadow: none !important;
+            }
+
+            body {
+                background: #eff1f5;
+                border-color: #7c7f93;
+                color: #4c4f69;
+            }
+
+            a,
+            a:link {
+                color: #4c4f69;
+                text-decoration: none;
+            }
+
+            a:hover,
+            a:link:hover,
+            a:link:visited,
+            a:visited:hover,
+            div.preface .byline a:hover,
+            div.preface .byline a:visited:hover,
+            .blurb h4 a:hover,
+            .blurb h4 a:link:hover,
+            .blurb h4 a:visited:hover,
+            .listbox .heading a:visited:hover {
+                color: rgb(135.15, 153, 253.3);
+            }
+
+            a:visited,
+            div.preface .byline a:visited,
+            span.series .divider,
+            .blurb h4 a:visited,
+            .listbox .heading a:visited {
+                color: #7287fd;
+            }
+
+            a img,
+            .icon {
+                border: 0;
+                border-radius: 0.25em;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            .heading {
+                border: 0;
+            }
+
+            h1 {
+                font-size: 2.5em;
+                line-height: 1;
+                margin: 0.5em 0;
+            }
+
+            h2 {
+                font-size: 2.145em;
+                line-height: 1;
+                margin: 0.5em 0;
+                display: inline;
+            }
+
+            h3 {
+                font-size: 1.29em;
+                line-height: 1.25;
+                margin: 0.5375em 0;
+            }
+
+            h4 {
+                font-size: 1.145em;
+                line-height: 1.25;
+                margin: 0.5em 0;
+            }
+
+            h5 {
+                font-size: 1em;
+                line-height: 1.285;
+                margin: 0.65em 0;
+            }
+
+            h6 {
+                font-size: 0.875em;
+                font-weight: 900;
+                line-height: 1.5;
+                margin: 1.5em 0;
+            }
+
+            a.cloud7,
+            a.cloud8,
+            a.work,
+            .blurb h4 a:link,
+            .blurb h4 img,
+            .delete a,
+            .splash .browse li a:before {
+                color: #dc8a78;
+            }
+
+            .delete a:hover {
+                color: #dc8a78;
+            }
+
+            hr,
+            .userstuff hr {
+                border: 0;
+                border-bottom: 2px solid;
+                color: #4c4f69;
+                margin: 1.5em auto;
+            }
+
+            #inner.wrapper {
+                display: flex;
+                margin: 0;
+                padding: 0;
+            }
+
+            #inner.wrapper #main.works-show.region,
+            #inner.wrapper #main.chapters-show.region {
+                padding-top: 1em;
+                background: #e6e9ef;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                overflow-wrap: break-word;
+                box-sizing: border-box;
+            }
+
+            input,
+            textarea {
+                background: #e6e9ef;
+                border-color: #bcc0cc;
+                border-radius: 0.25em;
+                color: #4c4f69;
+            }
+
+            input:focus,
+            textarea:focus,
+            form blockquote.userstuff,
+            form.search input:focus[type='text'] {
+                background: #e6e9ef;
+                border-color: #1e66f5;
+            }
+
+            input:hover,
+            form.search input:hover[type='text'] {
+                background: #e6e9ef;
+                border-color: #4c4f69;
+            }
+
+            th,
+            .secondary,
+            .thread .even,
+            .system .tweet_list li,
+            .ui-datepicker tr:hover {
+                background: #e6e9ef;
+            }
+
+            .heading,
+            .group .heading {
+                background: none;
+                color: #4c4f69;
+            }
+
+            span.claimed,
+            span.delete,
+            span.requested,
+            span.unread,
+            .draggable,
+            .droppable,
+            .replied,
+            .required,
+            .blurb h4 img {
+                color: #7287fd;
+            }
+
+            #main .verbose legend {
+                background: transparent;
+            }
+
+            .group,
+            .group .group,
+            .region,
+            fieldset,
+            fieldset fieldset ul,
+            form dl,
+            .verbose fieldset,
+            ul.notes,
+            table,
+            th,
+            td:hover,
+            tr:hover,
+            .symbol .question:hover,
+            .ui-sortable li,
+            .required .autocomplete,
+            .autocomplete .notice,
+            div.dynamic,
+            .dynamic form,
+            #ui-datepicker-div,
+            .ui-datepicker table {
+                background: #eff1f5;
+                border-color: #acb0be;
+                color: #4c4f69;
+            }
+
+            .picture .header {
+                border: 0;
+            }
+
+            .dropdown-toggle {
+                border-radius: 0 !important;
+            }
+
+            .secondary {
+                border: 0;
+            }
+
+            ul.expandable.secondary {
+                border: 0;
+                background: #dc8a78;
+            }
+
+            .toggled form {
+                background: #eff1f5;
+                border: 0;
+            }
+
+            li.blurb,
+            fieldset,
+            form dl {
+                border: 0;
+                padding: 1em;
+                overflow: hidden;
+            }
+
+            legend .action:link {
+                margin: 0 0.5em;
+            }
+
+            button,
+            input[type='submit'],
+            .action,
+            .action:link,
+            .actions a,
+            .actions a:link,
+            .actions input,
+            .actions label,
+            .current,
+            .flash.notice .action {
+                background: #ccd0da;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            #outer .current,
+            legend .action:link:active,
+            input:active[type='submit'],
+            a.current,
+            label.action:active,
+            span.unread,
+            span.claimed,
+            .action a:active,
+            .actions a:active,
+            .actions a:active:visited,
+            .current a:visited,
+            .flash.notice .action:active,
+            .flash.notice .action:active:visited,
+            .replied,
+            .own,
+            .draft,
+            .draft .unread,
+            .child,
+            .unwrangled,
+            .unreviewed,
+            .ui-sortable li:hover {
+                background: #dce0e8;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            legend .action:link:hover,
+            input:hover[type='submit'],
+            label.action:hover,
+            input.button:hover,
+            .action:hover,
+            .action a:hover,
+            .action a:link:hover,
+            .actions a:focus,
+            .actions a:hover,
+            .actions a:link:hover,
+            .actions a:visited:hover,
+            .actions a:focus:visited,
+            .actions input:hover,
+            .actions input:focus,
+            .flash.notice .action:hover,
+            .flash.notice .action:visited:hover,
+            .work.index.group .actions li a:hover,
+            .work.index.group .actions li a:visited:hover {
+                background: #bcc0cc;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            .actions a:visited,
+            .action a:link,
+            .action a:visited,
+            .blurb h4 a:visited,
+            .listbox .heading a:visited {
+                color: #acb0be;
+            }
+
+            dl.meta {
+                border: 0;
+            }
+
+            ul.actions,
+            p.actions,
+            li.actions,
+            span.actions,
+            fieldset.actions,
+            dd.actions {
+                padding: 0.429em 0.25em 0.25em 0;
+                float: right;
+                text-align: center;
+            }
+
+            .action.top a:active {
+                background: transparent;
+            }
+
+            #header {
+                background: #e6e9ef !important;
+                margin: 0;
+                color: #4c4f69;
+                font-size: 0.875em;
+                position: relative;
+            }
+
+            #header .heading {
+                float: left;
+                padding: 0.5em;
+            }
+
+            #header li {
+                display: block;
+                float: left;
+                position: relative;
+            }
+
+            #header a,
+            #header a:visited,
+            #header .heading a:visited,
+            #header .primary .open a,
+            #header .primary .open a:focus,
+            #header .primary .dropdown:hover a,
+            #header .user a:focus,
+            .filters dt a:hover {
+                color: #4c4f69;
+            }
+
+            #header .actions a:hover,
+            #header .actions a:focus,
+            #header .dropdown:hover a,
+            #header .open a {
+                background: #5c5f77;
+            }
+
+            #header .actions a {
+                background: transparent;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            #header #greeting .actions a {
+                color: #4c4f69;
+            }
+
+            #header .actions a:active,
+            #header .actions a:focus {
+                background: transparent;
+                color: #4c4f69;
+            }
+
+            #header .actions a:hover,
+            #header .dropdown:hover a,
+            #header .dropdown a:focus,
+            #header .user .open a:focus {
+                background: #acb0be;
+                color: #4c4f69;
+            }
+
+            #header .dropdown .menu a,
+            #greeting .dropdown .menu a {
+                background: #acb0be;
+                border-color: #acb0be;
+                color: #4c4f69;
+                display: block;
+                padding: 0.75em 0.5em 0.75em 0.5em;
+            }
+
+            #header .dropdown .menu a:focus,
+            #header .dropdown .menu a:hover {
+                background: #e6e9ef;
+                color: #4c4f69;
+            }
+
+            #header .dropdown .menu a:hover,
+            #greeting .dropdown .menu a:hover {
+                border-radius: 0;
+            }
+
+            #header .dropdown .menu li {
+                border: 0;
+                margin: auto;
+            }
+
+            #header .heading a {
+                color: #4c4f69;
+                font-size: 1.714em;
+                line-height: 1.75;
+            }
+
+            #header .heading sup {
+                font-size: 0.583em;
+                font-style: italic;
+            }
+
+            #header .logo {
+                float: left;
+                height: 42px;
+            }
+
+            #header .heading a:active {
+                color: #dc8a78;
+            }
+
+            #header .landmark {
+                clear: none;
+                font-size: 0;
+                border: 0;
+            }
+
+            #header .primary {
+                background: #ccd0da;
+                color: #eff1f5;
+                padding: 0;
+                width: 100%;
+            }
+
+            #header .menu,
+            #greeting .menu {
+                padding: 0;
+            }
+
+            #header #greeting img,
+            #header fieldset,
+            #header form,
+            #header p,
+            #header .heading a:focus,
+            #header .heading a:hover,
+            #header .heading a:hover:visited,
+            #tos_prompt .heading {
+                color: #dc8a78;
+            }
+
+            #header ul.primary {
+                border-radius: 0 !important;
+                width: 100%;
+            }
+
+            #header .menu li {
+                border-bottom: 0;
+                margin: 0 0.25em;
+                text-align: left;
+            }
+
+            #header .menu li:last-child {
+                border-bottom: 0;
+            }
+
+            #header .open a,
+            #small_login {
+                background: #e6e9ef;
+            }
+
+            #header .user a {
+                background: transparent;
+                border: transparent;
+            }
+
+            #header .user .dropdown-toggle {
+                border-radius: 0.25em 0.25em 0 0 !important;
+            }
+
+            #outer .group .heading,
+            fieldset.listbox .heading,
+            .userstuff .heading,
+            .userstuff h2 {
+                background: none;
+                color: #4c4f69;
+            }
+
+            #header .search {
+                float: right;
+                color: #4c4f69;
+                margin-right: 0.25em;
+            }
+
+            #header #search .text,
+            #header #search .button {
+                border: 0;
+            }
+
+            #header #search .text {
+                margin: 0.3em 0.43em;
+            }
+
+            #header #search .button {
+                border-radius: 1em;
+                margin: 0;
+            }
+
+            #header #search .text,
+            #header #search .text:active {
+                background: #eff1f5;
+            }
+
+            #header #search input:focus,
+            #header #search .text:focus,
+            #header #search .text:hover {
+                background: #ccd0da;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            #header form.search input[type='text'] {
+                border-radius: 1em;
+            }
+
+            #header .search {
+                display: none !important;
+            }
+
+            #greeting {
+                padding: 0.5em 0;
+            }
+
+            #greeting .user > li {
+                margin: 0 0.125em;
+            }
+
+            #greeting .menu {
+                right: 0;
+            }
+
+            #header input,
+            #header #search > *,
+            #header #search .submit {
+                display: inline;
+                float: none;
+            }
+
+            #header a,
+            #header fieldset,
+            #header form,
+            #header p,
+            #header li,
+            #header h1,
+            #small_login dl {
+                background: transparent;
+                font-size: 100%;
+                border: 0;
+                padding: 0;
+                margin: 0;
+                border-radius: 0;
+            }
+
+            #header h2 {
+                border-top: 0;
+                clear: both;
+                color: #4c4f69;
+                display: block;
+                font-size: 1.714em;
+                line-height: 1.5;
+                margin: 0;
+                padding: 0 0.375em;
+            }
+
+            .splash .module h3 {
+                border: 0;
+                color: #dc8a78;
+            }
+
+            .splash .browse li a,
+            .splash .favorite a {
+                border-radius: 0;
+            }
+
+            .splash .comment .userstuff {
+                margin: inherit;
+            }
+
+            .splash .favorite li a {
+                background: #ccd0da;
+                border: 1px solid transparent;
+            }
+
+            .splash .favorite li a:hover {
+                background: #eee;
+                border-color: #eee;
+                color: #ccd0da;
+            }
+
+            .splash .favorite li a:visited {
+                color: #7287fd;
+            }
+
+            .splash .favorite li:nth-of-type(odd) a:focus,
+            .splash .favorite li:nth-of-type(odd) a:hover,
+            .splash .favorite li:nth-of-type(odd) a:visited:hover {
+                background: #eee;
+                border-color: #eee;
+                color: #ccd0da;
+            }
+
+            .splash .news li {
+                border: 0;
+            }
+
+            .abbreviated h4.byline {
+                padding-left: 83px !important;
+            }
+
+            #outer #footer {
+                background: #e6e9ef;
+            }
+
+            #outer .region,
+            #footer .group {
+                background: none;
+            }
+
+            #footer {
+                border: 0;
+            }
+
+            #footer a:hover,
+            #footer a:focus {
+                background: transparent;
+                color: #dc8a78;
+            }
+
+            #footer ul.actions {
+                background-color: #eff1f5;
+            }
+
+            #workskin {
+                padding: 0;
+                margin: 0;
+            }
+
+            .work.meta.group {
+                border-radius: 0.25rem;
+                padding: 1rem;
+                margin-top: 1rem;
+            }
+
+            #chapters .userstuff a,
+            #chapters .userstuff p,
+            #chapters .userstuff ol,
+            #chapters .userstuff ul {
+                font-family: 'Charter', 'IBM Plex Serif', 'Palatino Linotype',
+                    'Palatino', 'Literata', 'Georgia', serif;
+                font-size: 1.25em;
+            }
+
+            #chapters .userstuff a {
+                font-size: revert;
+            }
+
+            #chapters .userstuff blockquote {
+                margin-left: 5em;
+                margin-right: 5em;
+            }
+
+            #chapters .userstuff blockquote p {
+                margin-left: 1em;
+                margin-right: 1em;
+            }
+
+            #chapters .userstuff code {
+                font-size: 0.8em;
+            }
+
+            #chapters .userstuff ol {
+                line-height: inherit;
+            }
+
+            #chapters .userstuff p {
+                margin-left: 2.5em;
+                margin-right: 2.5em;
+            }
+
+            #chapters .userstuff pre {
+                font-size: 1em;
+            }
+
+            .notes.module,
+            .summary.module {
+                background: #eff1f5;
+                border-radius: 0.5em;
+                font-size: 0.65rem;
+                margin-top: 1rem !important;
+            }
+
+            .userstuff h3 {
+                border-bottom: 1px solid #78777d;
+            }
+
+            div.preface {
+                border-radius: 0.25rem;
+                background: transparent;
+                margin: 0;
+                margin-block: 1rem;
+                padding: 0.75rem;
+                float: none;
+            }
+
+            div.preface .module {
+                float: none;
+                margin: 0;
+                padding: 1rem;
+                width: auto;
+            }
+
+            .chapter .preface {
+                border: none;
+            }
+
+            .preface h3 {
+                background: transparent;
+                border-bottom: 0;
+            }
+
+            .preface h2.title {
+                display: block;
+                border-bottom: 0;
+                clear: right;
+            }
+
+            div.preface .title,
+            div.preface .byline {
+                border: 0;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .preface a:hover {
+                text-decoration: none;
+            }
+
+            .preface blockquote {
+                border: 0;
+            }
+
+            div.preface .notes,
+            div.preface .summary,
+            div.preface .series,
+            div.preface .children {
+                min-height: 5em;
+            }
+
+            div.preface .series ul,
+            div.preface .children ul {
+                padding: 0 0.65em;
+            }
+
+            div.preface .associations {
+                margin-bottom: 1.5em;
+            }
+
+            div.preface .jump {
+                margin-top: 1.5em;
+            }
+
+            div.summary.module {
+                margin-top: 2em;
+            }
+
+            div.afterword {
+                margin-bottom: 2.5em;
+            }
+
+            div.afterword .series h3,
+            div.afterword .children h3 {
+                border-bottom: none;
+            }
+
+            #add_comnent,
+            #add_comment div.comment,
+            div.comment {
+                border: 0;
+            }
+
+            #add_comment div.comment,
+            fieldset fieldset,
+            .comment fieldset,
+            .post fieldset fieldset {
+                background: none;
+            }
+
+            li.comment {
+                background: #e6e9ef !important;
+                border: transparent;
+                border-radius: 0.25em;
+                margin: 1em 0;
+                padding: 0.5em 1em;
+            }
+
+            .actions li label {
+                display: revert;
+            }
+
+            .comment div.icon {
+                margin: -1.5em 0.75em 0.5em 0;
+                border: 0;
+            }
+
+            .comment h4.byline {
+                margin-top: 0.375em;
+            }
+
+            .comment .userstuff {
+                margin: 1em 0;
+                min-height: 3.3em;
+            }
+
+            a.tag:hover {
+                background: transparent;
+            }
+
+            .bookmark.blurb .commas a.tag,
+            .series.blurb .commas a.tag,
+            .work.blurb .commas a.tag,
+            .work.meta .commas a.tag {
+                background: #ccd0da;
+                border: 1px solid transparent;
+                border-radius: 0.75em;
+                color: #eee;
+                display: inline-block;
+                font-size: 0.9em;
+                margin: 1px 0;
+                overflow: hidden;
+                padding: 0.5px 6px;
+                text-decoration: none;
+                text-overflow: ellipsis;
+            }
+
+            .work.meta .autocomplete li.added.tag {
+                background: #ccd0da;
+                border: 1px solid transparent;
+                border-radius: 0.75em;
+                color: #eee;
+                display: inline-block;
+                font-size: 0.9em;
+                margin: 1px 6px 1px 0;
+                overflow: hidden;
+                padding: 1px 2px 1px 9px;
+                text-decoration: none;
+                text-overflow: ellipsis;
+            }
+
+            .bookmark.blurb .commas a.tag:hover,
+            .series.blurb .commas a.tag:hover,
+            .work.blurb .commas a.tag:hover,
+            .work.meta .commas a.tag:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas a.tag:visited,
+            .series.blurb .commas a.tag:visited,
+            .work.blurb .commas a.tag:visited,
+            .work.meta .commas a.tag:visited,
+            .work.meta .autocomplete li.added.tag:visited {
+                background: #ccd0da;
+                border-color: #ccd0da;
+                color: #6c6f85;
+            }
+
+            .bookmark.blurb .commas a.tag:visited:hover,
+            .series.blurb .commas a.tag:visited:hover,
+            .work.blurb .commas a.tag:visited:hover,
+            .work.meta .commas a.tag:visited:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.characters a,
+            .series.blurb .commas li.characters a,
+            .work.blurb .commas li.characters a,
+            .work.meta .character.tags .commas li a,
+            .work.meta .character li.added.tag {
+                background: #40a02b;
+                border-color: #40a02b;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.characters a:hover,
+            .series.blurb .commas li.characters a:hover,
+            .work.blurb .commas li.characters a:hover,
+            .work.meta .character.tags .commas li a:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.characters a:visited,
+            .series.blurb .commas li.characters a:visited,
+            .work.blurb .commas li.characters a:visited,
+            .work.meta .character.tags .commas li a:visited,
+            .work.meta .character li.added.tag:visited {
+                background: rgb(57.6, 144, 38.7);
+                border-color: rgb(57.6, 144, 38.7);
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.characters a:visited:hover,
+            .series.blurb .commas li.characters a:visited:hover,
+            .work.blurb .commas li.characters a:visited:hover,
+            .work.meta .character.tags .commas li a:visited:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.relationships a,
+            .series.blurb .commas li.relationships a,
+            .work.blurb .commas li.relationships a,
+            .work.meta .relationship.tags .commas li a,
+            .work.meta .relationship li.added.tag {
+                background: #1e66f5;
+                border-color: #1e66f5;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.relationships a:hover,
+            .series.blurb .commas li.relationships a:hover,
+            .work.blurb .commas li.relationships a:hover,
+            .work.meta .relationship.tags .commas li a:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.relationships a:visited,
+            .series.blurb .commas li.relationships a:visited,
+            .work.blurb .commas li.relationships a:visited,
+            .work.meta .relationship.tags .commas li a:visited,
+            .work.meta .relationship li.added.tag:visited {
+                background: rgb(10.5319148936, 86.3617021277, 236.9680851064);
+                border-color: rgb(10.5319148936, 86.3617021277, 236.9680851064);
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.relationships a:visited:hover,
+            .series.blurb .commas li.relationships a:visited:hover,
+            .work.blurb .commas li.relationships a:visited:hover,
+            .work.meta .relationship.tags .commas li a:visited:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.warnings a,
+            .series.blurb .commas li.warnings a,
+            .work.blurb .commas li.warnings a,
+            .work.meta .warning.tags .commas li a {
+                background: #d20f39;
+                border-color: #d20f39;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.warnings a:hover,
+            .series.blurb .commas li.warnings a:hover,
+            .work.blurb .commas li.warnings a:hover,
+            .work.meta .warning.tags .commas li a:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.warnings a:visited,
+            .series.blurb .commas li.warnings a:visited,
+            .work.blurb .commas li.warnings a:visited,
+            .work.meta .warning.tags .commas li a:visited {
+                background: rgb(189, 13.5, 51.3);
+                border-color: rgb(189, 13.5, 51.3);
+                color: #eff1f5;
+            }
+
+            .bookmark.blurb .commas li.warnings a:visited:hover,
+            .series.blurb .commas li.warnings a:visited:hover,
+            .work.blurb .commas li.warnings a:visited:hover,
+            .work.meta .warning.tags .commas li a:visited:hover {
+                background: #7c7f93;
+                border-color: #7c7f93;
+                color: #eff1f5;
+            }
+
+            .work.meta .category.tags .commas a,
+            .work.meta .fandom.tags .commas a,
+            .work.meta .rating.tags .commas a {
+                background: transparent;
+                border: 0;
+                border-bottom: 1px dotted #eee;
+                border-radius: 0;
+                font-size: revert;
+                margin: revert;
+                padding: inherit;
+            }
+
+            .work.meta .category.tags .commas a:hover,
+            .work.meta .category.tags .commas a:visited:hover,
+            .work.meta .fandom.tags .commas a:hover,
+            .work.meta .fandom.tags .commas a:visited:hover,
+            .work.meta .rating.tags .commas a:hover,
+            .work.meta .rating.tags .commas a:visited:hover {
+                border-bottom: 1px dotted #dc8a78;
+                color: #eff1f5;
+            }
+
+            .work.meta .category.tags .commas a:visited,
+            .work.meta .fandom.tags .commas a:visited,
+            .work.meta .rating.tags .commas a:visited {
+                border-bottom: 1px dotted #6c6f85;
+                border-radius: 0;
+                color: #6c6f85;
+            }
+
+            #main li.blurb {
+                background: #e6e9ef;
+                border-color: transparent;
+                border-radius: 0.25em;
+                padding: 0.5em 1em;
+                margin: 1em 0;
+            }
+
+            .bookmark .user {
+                border: 0;
+                margin-top: 0.65em;
+                padding: 0.429em 0.75em;
+                overflow: hidden;
+            }
+
+            .blurb .datetime,
+            .datetime {
+                font-size: small;
+                line-height: 1.25;
+            }
+
+            li.blurb .tags {
+                max-height: 8em;
+                overflow-y: auto;
+            }
+
+            ul.required-tags,
+            .blurb .icon,
+            .bookmark .status span {
+                border: 0;
+                opacity: 0.9;
+            }
+
+            .blurb dl.stats {
+                margin-top: 1em;
+                margin-bottom: 0.55em;
+                line-height: 1.25;
+            }
+
+            .blurb blockquote {
+                margin: 0.5em auto 1em auto;
+            }
+
+            .blurb .actions li {
+                padding: 0 0.25em 0 0;
+            }
+
+            .blurb .header .heading {
+                margin: 0.375em 5.25em 0 65px;
+            }
+
+            .commas li::after {
+                content: none;
+            }
+
+            .commas li.last {
+                padding: 0;
+            }
+
+            .meta dd ul li {
+                padding-right: 0.5em;
+                padding-left: 0;
+            }
+
+            .bookmark.blurb .meta.tags.commas a.tag {
+                background: revert;
+                border: 0;
+                border-bottom: 1px dotted #fff;
+                border-radius: revert;
+                color: #4c4f69;
+                display: inline;
+                padding: revert;
+            }
+
+            .bookmark.blurb .meta.tags.commas a.tag:hover {
+                color: #dc8a78;
+            }
+
+            .meta.tags.commas .tag:hover,
+            .meta.tags.commas .tag:visited:hover {
+                background: transparent;
+            }
+
+            .summary.userstuff blockquote {
+                margin: 0 1.5em !important;
+                padding: 0.25em 0.75em;
+            }
+
+            .tags.commas {
+                margin: 0.5em 0;
+            }
+
+            .user.module.group {
+                background: transparent;
+                margin-top: 0.75em;
+                padding: 0.375em 0 0 0;
+            }
+
+            #modal {
+                background: #eff1f5;
+                border: 0;
+                border-radius: 0.5em;
+                color: #eee;
+            }
+
+            #modal .content {
+                border: 0;
+            }
+
+            #modal .footer {
+                bottom: 0;
+                height: 44px;
+                left: 0;
+                line-height: 44px;
+                padding: 0.5em 1em;
+                right: 0;
+                position: absolute;
+            }
+
+            #modal .footer .action.modal-closer {
+                bottom: 1em;
+                position: absolute;
+                right: 1em;
+            }
+
+            #modal .footer a.action.modal-closer:active {
+                background: #0b0b0b;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            #modal .footer a.action.modal-closer:hover,
+            #modal .footer a.action.modal-closer:focus,
+            #modal .footer a.action.modal-closer:visited:hover {
+                background: #4e4e5e;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            .error,
+            .comment_error,
+            .kudos_error,
+            .LV_invalid,
+            .LV_invalid_field input.LV_invalid_field:hover,
+            input.LV_invalid_field:active,
+            textarea.LV_invalid_field:hover,
+            textarea.LV_invalid_field:active,
+            .qtip-content,
+            .system .intro {
+                background: #eff1f5;
+                border-color: #dc8a78;
+                color: #4c4f69;
+            }
+
+            .flash,
+            .notice {
+                background: transparent;
+                border-color: #dc8a78;
+                color: #4c4f69;
+                padding: 0.5em 0.375em;
+            }
+
+            #outer,
+            .javascript,
+            #tos_prompt,
+            .announcement input[type='submit'] {
+                background: #eff1f5;
+            }
+
+            form dd.required,
+            .event.announcement .userstuff a,
+            .filters .expander {
+                color: #4c4f69;
+            }
+
+            .announcement .userstuff a,
+            .announcement .userstuff a:link,
+            .announcement .userstuff a:visited:hover {
+                color: #dc8a78;
+            }
+
+            .announcement .userstuff a:visited {
+                color: #7287fd;
+            }
+
+            .announcement .userstuff a:hover,
+            .announcement .userstuff a:focus {
+                color: #7287fd;
+            }
+
+            .bookmark .status span {
+                border-color: #acb0be;
+            }
+
+            .dropdown {
+                background: none;
+            }
+
+            .mce-container input:focus {
+                background: #ccd0da;
+            }
+
+            .help.symbol.question.modal.modal-attached {
+                font-size: 0.75em;
+            }
+
+            .search [role='tooltip'] {
+                background: #eff1f5;
+                border: 1px solid #9ca0b0;
+                border-radius: 0.25em;
+                color: #4c4f69;
+                margin: 0.65em auto;
+                padding: 0.25em 0.375em;
+            }
+
+            .splash .favorite li:nth-of-type(odd) a,
+            .ui-datepicker td:hover,
+            #tos_prompt .heading,
+            #tos_prompt [disabled] {
+                background: #e6e9ef;
+            }
+
+            .symbol .question,
+            .qtip-content {
+                background: transparent;
+                color: #dc8a78;
+            }
+
+            #dashboard,
+            #dashboard.own {
+                border-color: #dc8a78;
+            }
+
+            #dashboard a,
+            #dashboard span {
+                color: #4c4f69;
+            }
+
+            #dashboard a:active,
+            #dashboard .current {
+                background: #e6e9ef;
+                border-color: transparent;
+                color: #4c4f69;
+            }
+
+            #dashboard a:focus,
+            #dashboard a:hover {
+                background: #dce0e8;
+                color: #4c4f69;
+            }
+
+            #dashboard ul {
+                border: 0;
+            }
+
+            #dashboard.own {
+                background: #dce0e8;
+                border-top: 0em solid transparent;
+                border-bottom: 0em solid transparent;
+                font-size: 0.85em;
+                margin: 1.75em;
+                padding-block: 0.25em;
+                padding-inline: 1rem;
+            }
+
+            #main.dashboard {
+                margin: 1rem;
+            }
+
+            .statistics .fandom.listbox.group {
+                background: transparent;
+                border: #e6e9ef;
+                border-radius: 0.25em;
+                margin: 1em 0;
+            }
+
+            .statistics .fandom ul.index.group {
+                background: #e6e9ef !important;
+                border-radius: inherit;
+                padding: 0.15em 0.65em;
+            }
+
+            .statistics .listbox h5.heading {
+                font-size: 1.1em;
+                margin: 0.75em 0 !important;
+            }
+
+            .statistics .index dd {
+                margin: 1em 0 0.5em 0 !important;
+            }
+
+            .statistics .index li {
+                border-radius: inherit;
+                margin: 0.5em 0;
+                padding: 0.5em;
+            }
+
+            .statistics .index li:nth-of-type(even) {
+                background: #ccd0da;
+            }
+
+            .listbox,
+            fieldset fieldset.listbox {
+                clear: right;
+                background: #16151b;
+                border: 0;
+                border-radius: 0.25em;
+                padding: 0;
+                margin: 0.75em auto;
+                overflow: hidden;
+            }
+
+            #edit-multiple-works a.check_all,
+            #edit-multiple-works a.check_none {
+                margin: -2px 0.15em 0 0.15em;
+            }
+
+            #edit-multiple-works .fandom.listbox {
+                border-color: transparent;
+                border-radius: 0.25em;
+                background: transparent;
+            }
+
+            #edit-multiple-works .fandom.listbox ul.actions {
+                margin: 0 0 0.5em 0;
+            }
+
+            #edit-multiple-works .fandom.listbox ul.actions li {
+                margin: 0;
+            }
+
+            #user-works,
+            #user-works ul,
+            #user-series,
+            #user-series ol,
+            #user-bookmarks,
+            #user-bookmarks ol {
+                background: transparent;
+                border-color: transparent;
+            }
+
+            dl.index dd,
+            dl.index dt {
+                background: transparent;
+                border: transparent;
+            }
+
+            dl.index dd {
+                margin: 0.25em 0.25em 1.25em 0;
+            }
+
+            .concise label.action {
+                background: transparent;
+            }
+
+            .listbox ul.index.concise {
+                background: #e6e9ef;
+                border-radius: inherit;
+            }
+
+            .bookmark .actions {
+                padding: 0;
+            }
+
+            .bookmark.blurb p.status {
+                right: 0.5em;
+            }
+
+            .bookmark .datetime {
+                top: 30px;
+            }
+
+            .bookmark div.user,
+            .bookmark div.recent {
+                background-color: #e6e9ef;
+                border: 0;
+            }
+
+            .bookmark.listbox.group,
+            .bookmark.listbox.group ul.index.group,
+            .parent.listbox.group,
+            .work.listbox.group,
+            .work.listbox.group ul.index.group {
+                background: transparent;
+                border: 0;
+            }
+
+            .collection .header.module.group {
+                background: transparent;
+            }
+
+            .listbox .heading a.tag:visited:hover {
+                background: transparent;
+                color: #dc8a78;
+            }
+
+            .listbox .index {
+                background: transparent;
+            }
+
+            .home .header h2 {
+                border: 0;
+            }
+
+            .home .header ul.actions {
+                max-width: 70%;
+                text-align: right;
+            }
+
+            .profile .primary,
+            .home .primary {
+                float: none;
+            }
+
+            .medium.listbox .index.group {
+                margin: 0.5em 0;
+            }
+
+            .tags.commas.index.group {
+                background: transparent;
+            }
+
+            #bookmark-filters fieldset,
+            #work-filters fieldset {
+                margin: 0 0.65em;
+                padding: 0 0.65em;
+            }
+
+            #bookmark-filters fieldset dl,
+            #work-filters fieldset dl {
+                margin: 0.65em 0;
+            }
+
+            #collection_filters_title_autocomplete,
+            #collection_filters_fandom_autocomplete,
+            #bookmark_search_excluded_bookmark_tag_names_autocomplete,
+            #bookmark_search_excluded_tag_names_autocomplete,
+            #bookmark_search_other_bookmark_tag_names_autocomplete,
+            #bookmark_search_other_tag_names_autocomplete,
+            #bookmark_search_bookmark_query,
+            #bookmark_search_bookmarkable_query,
+            #work_search_excluded_tag_names_autocomplete,
+            #work_search_other_tag_names_autocomplete,
+            #work_search_query,
+            #work_search_words_from,
+            #work_search_words_to,
+            #work_search_date_from,
+            #work_search_date_to {
+                padding: 1px 0 1px 0;
+                width: 99%;
+            }
+
+            #include_rating_tags,
+            #exclude_rating_tags,
+            #include_archive_warning_tags,
+            #exclude_archive_warning_tags,
+            #include_category_tags,
+            #exclude_category_tags,
+            #include_fandom_tags,
+            #exclude_fandom_tags,
+            #include_character_tags,
+            #exclude_character_tags,
+            #include_relationship_tags,
+            #exclude_relationship_tags,
+            #include_freeform_tags,
+            #exclude_freeform_tags,
+            #include_tag_tags,
+            #exclude_tag_tags {
+                font-size: 0.9em;
+            }
+
+            .filters .group dt.bookmarker,
+            .filters .group dt.language,
+            .filters .group dt.search,
+            .filters .group dt.options {
+                margin: 0.2em 0 0 0;
+                padding: 0.25em 0;
+            }
+
+            .filters .group dd.language,
+            .filters .group dd.search,
+            .filters .group dd.options,
+            .filters .more dd.search,
+            dd.options ul li {
+                margin: 0.2em 0;
+            }
+
+            dt.include.heading,
+            dt.exclude.heading,
+            dt.more.heading {
+                margin-bottom: 0.15em;
+            }
+
+            dd.include.tags.group dl,
+            dd.exclude.tags.group dl,
+            dd.more.group dl,
+            dt.search dd {
+                margin: 0;
+            }
+
+            .autocomplete .dropdown ul li:hover,
+            .autocomplete .dropdown li.selected {
+                background: transparent;
+                color: #dc8a78;
+            }
+
+            .filters .expander,
+            .filters .expanded .expander {
+                background: transparent;
+            }
+
+            .filters .expander::before {
+                content: '\23F5\0A0';
+            }
+
+            .filters .expanded .expander::before {
+                content: '\23F7\0A0';
+            }
+
+            .filters button.expander {
+                padding: 0;
+            }
+
+            #work_crossover li,
+            #work_complete li,
+            .filters .tags li {
+                padding-left: 0.75em;
+            }
+
+            form dl dt,
+            .filters dt {
+                border-bottom: 0;
+            }
+
+            form.search input[type='text'] {
+                border-color: #78777d;
+                border-radius: 0.25em;
+            }
+
+            fieldset,
+            form.verbose legend,
+            .verbose form legend,
+            .filters .group dt.bookmarker {
+                border: 0;
+            }
+
+            fieldset fieldset.listbox,
+            .group.listbox {
+                background: transparent;
+                border-color: transparent;
+                border-radius: 0.25em;
+            }
+
+            .group.listbox .index {
+                background: #e6e9ef;
+                border-radius: 0.25em;
+            }
+
+            form dl dt,
+            form.single fieldset {
+                border-color: #78777d;
+            }
+
+            .required-tags .rating-notrated,
+            .required-tags .rating-general-audience,
+            .required-tags .rating-explicit,
+            .required-tags .rating-mature,
+            .required-tags .rating-teen,
+            .required-tags .category-femslash,
+            .required-tags .category-gen,
+            .required-tags .category-slash,
+            .required-tags .category-none,
+            .required-tags .category-het,
+            .required-tags .category-multi,
+            .required-tags .category-other,
+            .required-tags .complete-no,
+            .required-tags .complete-yes,
+            .required-tags .warning-yes,
+            .required-tags .warning-no,
+            .required-tags .warning-choosenotto,
+            .required-tags .external-work,
+            .status .private .text,
+            .status .public,
+            .status .hidden,
+            .status .rec,
+            .status .count,
+            .index .skins .icon,
+            .index .mystery .icon,
+            .index .tag .icon,
+            .index .tagset .icon,
+            .comment .icon .anonymous,
+            .comment .icon .visitor,
+            .abbreviated .icon .visitor,
+            .abbreviated .icon .anonymous,
+            .skins .primary .icon,
+            .admin .primary .icon,
+            .tagset .primary .icon,
+            .tag .primary .icon,
+            a.rss span,
+            p.kudos,
+            #symbols-key dl img,
+            #bookmark-symbols-key img,
+            img[src$='/images/skins/iconsets/default/icon_user.png'],
+            img[src$='/images/skins/iconsets/default/icon_collection.png'],
+            img[src$='/images/lockblue.png'] {
+                background-image: url('https://images.squidge.org/images/2024/03/30/AO3_imageset_muted_dark.png');
+                background-size: 200px 835px;
+            }
+
+            #symbols-key dl img,
+            #bookmark-symbols-key img {
+                width: 0 !important;
+                height: 0 !important;
+                padding: 25px 0 0 25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-notrated.png'],
+            img[src$='/images/skins/iconsets/default/category-none.png'],
+            img[src$='/images/skins/iconsets/default/warning-no.png'] {
+                background-position: -150px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-general-audience.png'] {
+                background-position: -50px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-teen.png'] {
+                background-position: 0px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-mature.png'] {
+                background-position: -75px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/rating-explicit.png'] {
+                background-position: -25px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-femslash.png'] {
+                background-position: -25px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-het.png'] {
+                background-position: -75px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-gen.png'] {
+                background-position: -50px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-multi.png'] {
+                background-position: -100px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/category-other.png'] {
+                background-position: -125px 0px;
+            }
+
+            img[src$='/images/skins/iconsets/default/warning-choosenotto.png'] {
+                background-position: -125px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/warning-yes.png'] {
+                background-position: -150px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/warning-external-work.png'] {
+                background-position: -75px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/complete-no.png'] {
+                background-position: -100px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/complete-yes.png'] {
+                background-position: -175px -25px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-rec.png'] {
+                background-position: -100px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-public.png'] {
+                background-position: -125px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-private.png'] {
+                background-position: -175px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/bookmark-hidden.png'] {
+                background-position: -150px -50px;
+            }
+
+            img[src$='/images/skins/iconsets/default/icon_user.png'],
+            img[src$='/images/skins/iconsets/default/icon_collection.png'],
+            img[src$='/images/lockblue.png'] {
+                width: 0 !important;
+                height: 0 !important;
+            }
+
+            img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 100px 0 0 100px;
+                background-position: 0px -75px;
+            }
+
+            .index img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 55px 0 0 55px;
+                background-position: 0px -525px;
+            }
+
+            .abbreviated
+                img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 75px 0 0 75px;
+                background-position: 0px -375px;
+            }
+
+            #greeting img[src$='/images/skins/iconsets/default/icon_user.png'] {
+                padding: 1.786em 0 0 1.786em;
+                background-position: 0 -19px;
+                background-size: 201% !important;
+            }
+
+            img[src$='/images/skins/iconsets/default/icon_collection.png'] {
+                padding: 100px 0 0 100px;
+                background-position: -100px -175px;
+            }
+
+            .index
+                img[src$='/images/skins/iconsets/default/icon_collection.png'] {
+                padding: 55px 0 0 55px;
+                background-position: -55px -525px;
+            }
+
+            img[src$='/images/lockblue.png'] {
+                padding: 15px 0 0 15px;
+                background-position: -155px -305px;
+            }
+
+            #header .logo {
+                content: url('/images/logo.png');
+            }
+
+            dl.stats dt {
+                display: none;
+            }
+
+            .skins .header dl.stats dt {
+                display: inline-block;
+            }
+
+            dl.stats dd:nth-of-type(1)::before {
+                background: url(https://64.media.tumblr.com/fff96d500a04ddf12517a48d83b228d2/b2e751421a20aa0c-a7/s100x200/c848a67de8f463ccdafa5b60948c61a172d5fe24.png);
+            }
+
+            dl.stats dd:nth-of-type(2)::before {
+                background: url(https://64.media.tumblr.com/f835b437a474b4b672a8d4ebe61402b8/8979adde76f2ff05-fb/s100x200/8f86556b6896e96427f5a4a54f0de7be38ddba75.png);
+            }
+
+            dl.stats dd.language::before {
+                display: none !important;
+            }
+
+            dl.stats dd.kudos::before {
+                background: url(https://64.media.tumblr.com/23a3c6f134a96386f50fb8982a353590/8b704f26c7323545-01/s100x200/31e25f0be03646918168c4d49bd2ee9733b2cd59.png);
+            }
+
+            dl.stats dd.words::before {
+                background: url(https://64.media.tumblr.com/fff96d500a04ddf12517a48d83b228d2/b2e751421a20aa0c-a7/s100x200/c848a67de8f463ccdafa5b60948c61a172d5fe24.png);
+            }
+
+            dl.stats dd.chapters::before {
+                background: url(https://64.media.tumblr.com/a8ca48310f24581ae539336583690b26/b2e751421a20aa0c-5c/s100x200/a51b914598b64c3ddf6f705b278f11a68301d443.png);
+            }
+
+            dl.stats dd.comments::before {
+                background: url(https://64.media.tumblr.com/7172c0bbe03a0eef7b236014dc78c905/8b704f26c7323545-78/s250x400/f37ba1ff69b5ef2ad7e5fe66b61fd748badc00d1.png);
+            }
+
+            dl.stats dd.bookmarks::before,
+            dl.stats dd a[href$='bookmarks']::before {
+                background: url(https://64.media.tumblr.com/9b95d189a57699762d2262536e922ece/b2e751421a20aa0c-2a/s100x200/1aabb2ad7b90746f0469aefaa39af5b83728f8b9.png);
+            }
+
+            dl.stats dd.hits::before {
+                background: url(https://64.media.tumblr.com/b2b8862a356132ac1aa41e9e9f0ddd1d/b2e751421a20aa0c-9e/s100x200/dcd2bcb1adbbb8f9e1844b61aee3dd3a653531e3.png);
+            }
+
+            dl.stats dd.collections::before {
+                background: url(https://64.media.tumblr.com/ae825c2ad8071426c298c5b52970e294/b2e751421a20aa0c-18/s100x200/d1eb5dd259e2db588cda2100057c2c8fd9efaaf0.png);
+            }
+
+            dl.work dl.stats dd.published::before {
+                background: url(https://64.media.tumblr.com/7e13419071a7eeb35f48a76c7aa0ba36/b2e751421a20aa0c-5d/s250x400/7f351f60793ad683e4a9dc4de55e4ee4d625f9d2.png);
+            }
+
+            dl.work dl.stats dd.status::before {
+                background: url(https://64.media.tumblr.com/0ef9349a36cf808783e9488a97b64678/b2e751421a20aa0c-10/s250x400/8df1d3da298f875381822968f8e71ed4d7bcae31.png);
+            }
+
+            ul.statistics dl.stats dd.subscriptions::before {
+                background: url(https://64.media.tumblr.com/64db76a65209eff79515dfc23842eb54/fd0b10e0262ddb71-14/s250x400/921de73c3d5bb819f4e3c58c7c45bd4c6edfe55f.png);
+            }
+
+            dl.stats dd.published::before,
+            dl.stats dd.status::before {
+                width: 0px;
+                margin-right: 0px;
+            }
+
+            li.collection dl.stats dd a[href$='collections']::before {
+                background: url(https://64.media.tumblr.com/ae825c2ad8071426c298c5b52970e294/b2e751421a20aa0c-18/s100x200/d1eb5dd259e2db588cda2100057c2c8fd9efaaf0.png);
+            }
+
+            li.collection dl.stats dd a[href$='works']::before {
+                background: url(https://64.media.tumblr.com/f835b437a474b4b672a8d4ebe61402b8/8979adde76f2ff05-fb/s100x200/8f86556b6896e96427f5a4a54f0de7be38ddba75.png);
+            }
+
+            li.collection dl.stats dd a[href$='bookmarks']::before {
+                background: url(https://64.media.tumblr.com/9b95d189a57699762d2262536e922ece/b2e751421a20aa0c-2a/s100x200/1aabb2ad7b90746f0469aefaa39af5b83728f8b9.png);
+            }
+
+            li.collection dl.stats dd a[href$='fandoms']::before {
+                background: url(https://64.media.tumblr.com/0a2f3d28fb850907a859726916e04e6f/8979adde76f2ff05-48/s250x400/926b1499363f66438d02fdc8bbea5ce610a75395.png);
+            }
+
+            ul.statistics dl.stats dd::before,
+            li.work dl.stats dd::before,
+            li.bookmark dl.stats dd::before,
+            dl.work dl.stats dd::before,
+            .collection dl.stats dd a[href$='collections']::before,
+            li.collection dl.stats dd a[href$='works']::before,
+            li.collection dl.stats dd a[href$='bookmarks']::before,
+            li.collection dl.stats dd a[href$='fandoms']::before,
+            li.series
+                dl.stats
+                dd:not(.language):not(.words):not(.chapters):not(
+                    .collections
+                ):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(
+                    .published
+                ):not(.subscriptions):nth-of-type(1)::before,
+            li:not(.collection)
+                dl.stats
+                dd:not(.language):not(.words):not(.chapters):not(
+                    .collections
+                ):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(
+                    .published
+                ):not(.subscriptions):nth-of-type(2)::before,
+            dl.stats dd:not(.bookmarks) a[href$='bookmarks']::before {
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                content: ' ';
+                background-size: 14px 14px !important;
+                margin-right: 5px;
+            }
+        </style>
+        <style type="text/css" media="only screen and (max-width: 42em)">
+            * {
+                font-size: 12px;
+            }
+
+            #chapters .userstuff p {
+                margin-left: 1em;
+                margin-right: 1em;
+                overflow-wrap: break-word;
+            }
+
+            #header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #header nav[aria-label='Site'] {
+                width: 100%;
+                margin-top: 1rem;
+            }
+
+            #header ul.primary {
+                display: flex;
+                justify-content: center;
+                padding-block: 0.5rem;
+            }
+
+            #inner.wrapper {
+                flex-direction: column;
+            }
+
+            #inner.wrapper #main.works-show.region,
+            #inner.wrapper #main.chapters-show.region {
+                padding-inline: 1rem;
+            }
+
+            #workskin {
+                width: fit-content;
+                max-width: 100%;
+            }
+
+            .notes.module,
+            .summary.module {
+                min-width: 0;
+                width: 100%;
+                overflow-wrap: break-word;
+            }
+
+            .blurb h4.heading a {
+                word-break: break-word;
+            }
+
+            .blurb h4.heading,
+            .blurb .header .heading {
+                margin: 0;
+            }
+
+            .blurb ul.required-tags {
+                position: initial;
+                top: initial;
+                text-align: center;
+                display: inline-block;
+                width: 100%;
+                margin: auto;
+            }
+
+            .blurb ul.required-tags li + li + li,
+            .blurb ul.required-tags li + li + li + li {
+                position: initial;
+                left: initial;
+            }
+
+            .blurb ul.required-tags li {
+                display: inline-flex;
+            }
+
+            .bookmark p.status {
+                position: relative;
+                right: initial;
+                z-index: initial;
+                display: inline-block;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+
+            .bookmark .status span,
+            .bookmark .status a {
+                display: inline-block;
+            }
+
+            .bookmark span.count {
+                line-height: initial;
+                position: initial;
+                top: initial;
+                left: initial;
+                text-align: center;
+            }
+
+            .bookmark .status a:focus {
+                overflow: initial;
+            }
+
+            .bookmark .status .count {
+                background: none;
+            }
+
+            .blurb .header h5.fandoms {
+                margin: 0px;
+            }
+
+            .blurb .header p.notice,
+            .blurb ul.series {
+                margin: 10px 0;
+            }
+
+            .blurb .tags li {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .blurb .header .heading {
+                margin: 0.375em 0.375em;
+                overflow-wrap: break-word;
+            }
+
+            .blurb .datetime {
+                position: initial;
+                text-align: center;
+                margin-top: 5px;
+            }
+
+            a.tag {
+                word-break: break-word;
+            }
+
+            .user h2.heading,
+            .admin h2.heading,
+            .collection h2.heading {
+                margin: 10px auto;
+                text-align: center;
+            }
+
+            .userstuff,
+            .userstuff p,
+            blockquote.userstuff,
+            .userstuff p span {
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+            }
+
+            #dashboard.own {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            #dashboard.own ul {
+                flex-direction: row;
+            }
+        </style>
+
+        <!--sandbox for developers	-->
+        <link rel="stylesheet" href="/stylesheets/sandbox.css" />
+
+        <script src="/javascripts/livevalidation_standalone.js"></script>
+
+        <meta name="csrf-param" content="authenticity_token" />
+        <meta
+            name="csrf-token"
+            content="GK-bnOnGIQwxLdUjvJl4o75XBURMvYhLkI6xXTPDSHvnI_e2cFlI64puwt4dF4rjlz0aM5KO-6dY55GplhsiJw"
+        />
+    </head>
+
+    <body class="logged-in">
+        <div id="outer" class="wrapper">
+            <ul id="skiplinks">
+                <li><a href="#main">Main Content</a></li>
+            </ul>
+            <noscript
+                ><p id="javascript-warning">
+                    While we&#39;ve done our best to make the core functionality
+                    of this site accessible without JavaScript, it will work
+                    better with it enabled. Please consider turning it on!
+                </p></noscript
+            >
+
+            <!-- BEGIN header -->
 
             <header id="header" class="region">
                 <h1 class="heading">
-                    <a href="/"><span>Archive of Our Own</span><sup> beta</sup><img alt="Archive of Our Own" class="logo" src="/images/ao3_logos/logo_42.png" /></a>
+                    <a href="/"
+                        ><span>Archive of Our Own</span><sup> beta</sup
+                        ><img
+                            alt="Archive of Our Own"
+                            class="logo"
+                            src="/images/ao3_logos/logo_42.png"
+                    /></a>
                 </h1>
 
                 <nav id="greeting" aria-label="User">
                     <ul class="user navigation actions">
                         <li class="dropdown">
-                            <a href="/users/User">Hi, User!</a>
+                            <a href="/users/mifanathan">Hi, mifanathan!</a>
                             <ul class="menu">
-                                <li><a href="/users/User">My Dashboard</a></li>
                                 <li>
-                                    <a href="/users/User/subscriptions.html">My Subscriptions</a>
+                                    <a href="/users/mifanathan">My Dashboard</a>
                                 </li>
-                                <li><a href="/users/User/works.html">My Works</a></li>
-                                <li><a href="/users/User/bookmarks.html">My Bookmarks</a></li>
-                                <li><a href="/users/User/readings.html">My History</a></li>
                                 <li>
-                                    <a href="/users/User/preferences.html">My Preferences</a>
+                                    <a href="/users/mifanathan/subscriptions"
+                                        >My Subscriptions</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="/users/mifanathan/works"
+                                        >My Works</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="/users/mifanathan/bookmarks"
+                                        >My Bookmarks</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="/users/mifanathan/readings"
+                                        >My History</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="/users/mifanathan/preferences"
+                                        >My Preferences</a
+                                    >
                                 </li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/works/new.html">Post</a>
+                            <a href="/works/new">Post</a>
                             <ul class="menu">
-                                <li><a href="/works/new.html">New Work</a></li>
-                                <li><a href="/works/newImport.html">Import Work</a></li>
+                                <li><a href="/works/new">New Work</a></li>
+                                <li>
+                                    <a href="/works/new?import=true"
+                                        >Import Work</a
+                                    >
+                                </li>
                             </ul>
                         </li>
                         <li>
-                            <a rel="nofollow" data-method="delete" href="/">Log Out</a>
+                            <a
+                                rel="nofollow"
+                                data-method="delete"
+                                href="/users/logout"
+                                >Log Out</a
+                            >
                         </li>
                     </ul>
 
                     <p class="icon">
-                        <a href="/users/User"><img alt="Nahida Art - Face Zoomed In" class="icon" src="https://s3.amazonaws.com/otw-ao3-icons/icons/1410309/standard.png?1731092967" /></a>
+                        <a href="/users/mifanathan"
+                            ><img
+                                alt="Nahida Art - Face Zoomed In"
+                                class="icon"
+                                src="https://s3.amazonaws.com/otw-ao3-icons/icons/1410309/standard.png?1731092967"
+                        /></a>
                     </p>
                 </nav>
 
                 <nav aria-label="Site">
                     <ul class="primary navigation actions">
                         <li class="dropdown">
-                            <a href="/menu/fandoms.html">Fandoms</a>
+                            <a href="/menu/fandoms">Fandoms</a>
                             <ul class="menu">
                                 <li><a href="/media">All Fandoms</a></li>
                                 <li id="medium_5">
-                                    <a href="/media/random">Anime &amp; Manga</a>
+                                    <a href="/media/Anime%20*a*%20Manga/fandoms"
+                                        >Anime &amp; Manga</a
+                                    >
                                 </li>
                                 <li id="medium_3">
-                                    <a href="/media/random">Books &amp; Literature</a>
+                                    <a
+                                        href="/media/Books%20*a*%20Literature/fandoms"
+                                        >Books &amp; Literature</a
+                                    >
                                 </li>
                                 <li id="medium_4">
-                                    <a href="/media/random">Cartoons &amp; Comics &amp; Graphic Novels</a>
+                                    <a
+                                        href="/media/Cartoons%20*a*%20Comics%20*a*%20Graphic%20Novels/fandoms"
+                                        >Cartoons &amp; Comics &amp; Graphic
+                                        Novels</a
+                                    >
                                 </li>
                                 <li id="medium_7">
-                                    <a href="/media/random">Celebrities &amp; Real People</a>
+                                    <a
+                                        href="/media/Celebrities%20*a*%20Real%20People/fandoms"
+                                        >Celebrities &amp; Real People</a
+                                    >
                                 </li>
                                 <li id="medium_2">
-                                    <a href="/media/random">Movies</a>
+                                    <a href="/media/Movies/fandoms">Movies</a>
                                 </li>
                                 <li id="medium_6">
-                                    <a href="/media/random">Music &amp; Bands</a>
+                                    <a href="/media/Music%20*a*%20Bands/fandoms"
+                                        >Music &amp; Bands</a
+                                    >
                                 </li>
                                 <li id="medium_8">
-                                    <a href="/media/random">Other Media</a>
+                                    <a href="/media/Other%20Media/fandoms"
+                                        >Other Media</a
+                                    >
                                 </li>
                                 <li id="medium_30198">
-                                    <a href="/media/random">Theater</a>
+                                    <a href="/media/Theater/fandoms">Theater</a>
                                 </li>
                                 <li id="medium_1">
-                                    <a href="/media/random">TV Shows</a>
+                                    <a href="/media/TV%20Shows/fandoms"
+                                        >TV Shows</a
+                                    >
                                 </li>
                                 <li id="medium_476">
-                                    <a href="/media/random">Video Games</a>
+                                    <a href="/media/Video%20Games/fandoms"
+                                        >Video Games</a
+                                    >
                                 </li>
                                 <li id="medium_9971">
-                                    <a href="/media/random">Uncategorized Fandoms</a>
+                                    <a
+                                        href="/media/Uncategorized%20Fandoms/fandoms"
+                                        >Uncategorized Fandoms</a
+                                    >
                                 </li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/menu/browse.html">Browse</a>
+                            <a href="/menu/browse">Browse</a>
                             <ul class="menu">
                                 <li><a href="/works">Works</a></li>
                                 <li><a href="/bookmarks">Bookmarks</a></li>
@@ -90,34 +4341,69 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/menu/search.html">Search</a>
+                            <a href="/menu/search">Search</a>
                             <ul class="menu">
-                                <li><a href="/works/search.html">Works</a></li>
-                                <li><a href="/bookmarks/search.html">Bookmarks</a></li>
-                                <li><a href="/tags/search.html">Tags</a></li>
-                                <li><a href="/people/search.html">People</a></li>
+                                <li><a href="/works/search">Works</a></li>
+                                <li>
+                                    <a href="/bookmarks/search">Bookmarks</a>
+                                </li>
+                                <li><a href="/tags/search">Tags</a></li>
+                                <li><a href="/people/search">People</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/menu/about.html">About</a>
+                            <a href="/menu/about">About</a>
                             <ul class="menu">
-                                <li><a href="/about.html">About Us</a></li>
-                                <li><a href="/admin_posts.html">News</a></li>
-                                <li><a href="/faq.html">FAQ</a></li>
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/admin_posts">News</a></li>
+                                <li><a href="/faq">FAQ</a></li>
                                 <li>
-                                    <a href="/wrangling_guidelines.html">Wrangling Guidelines</a>
+                                    <a href="/wrangling_guidelines"
+                                        >Wrangling Guidelines</a
+                                    >
                                 </li>
-                                <li><a href="/donate.html">Donate or Volunteer</a></li>
+                                <li>
+                                    <a href="/donate">Donate or Volunteer</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="search">
-                            <form class="search" id="search" role="search" aria-label="Work" action="/works/search" accept-charset="UTF-8" method="get">
+                            <form
+                                class="search"
+                                id="search"
+                                role="search"
+                                aria-label="Work"
+                                action="/works/search"
+                                accept-charset="UTF-8"
+                                method="get"
+                            >
                                 <fieldset>
                                     <p>
-                                        <label class="landmark" for="site_search">Work Search</label>
-                                        <input class="text" id="site_search" aria-describedby="site_search_tooltip" type="text" name="work_search[query]" />
-                                        <span class="tip" role="tooltip" id="site_search_tooltip">tip: lex m/m (mature OR explicit)</span>
-                                        <span class="submit actions"><input type="submit" value="Search" class="button" /></span>
+                                        <label
+                                            class="landmark"
+                                            for="site_search"
+                                            >Work Search</label
+                                        >
+                                        <input
+                                            class="text"
+                                            id="site_search"
+                                            aria-describedby="site_search_tooltip"
+                                            type="text"
+                                            name="work_search[query]"
+                                        />
+                                        <span
+                                            class="tip"
+                                            role="tooltip"
+                                            id="site_search_tooltip"
+                                            >tip: austen words:10000-50000
+                                            sort:title</span
+                                        >
+                                        <span class="submit actions"
+                                            ><input
+                                                type="submit"
+                                                value="Search"
+                                                class="button"
+                                        /></span>
                                     </p>
                                 </fieldset>
                             </form>
@@ -128,52 +4414,1259 @@
                 <div class="clear"></div>
             </header>
 
-            <!-- END header -->undefined<!-- BEGIN footer -->
+            <!-- END header -->
+
+            <div id="inner" class="wrapper">
+                <!-- BEGIN sidebar -->
+                <!-- END sidebar -->
+
+                <!-- BEGIN main -->
+                <div id="main" class="tags-index region" role="main">
+                    <div class="flash"></div>
+                    <!--SEARCHBROWSE-->
+                    <!--Descriptive page names, messages and instructions-->
+                    <h2 class="heading">Tags</h2>
+                    <!--/descriptions-->
+
+                    <!--subnav-->
+                    <ul class="navigation actions" role="navigation">
+                        <li><a href="/tag_sets">Tag Sets</a></li>
+                        <li><span class="current">Most Popular</span></li>
+                        <li><a href="/tags?show=random">Random</a></li>
+                    </ul>
+                    <!--/subnav-->
+
+                    <!--main content-->
+                    <h3 class="landmark heading">Browse Popular Tags</h3>
+
+                    <p>
+                        These are some of the most popular tags used on the
+                        Archive. To find more tags,
+                        <a href="/tags/search">try our tag search</a>.
+                    </p>
+                    <ul class="tags cloud index group">
+                        <!--FRONT END REVIEW: these classes are irregular-->
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Abduction/works"
+                                >Abduction</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Abuse/works"
+                                >Abuse</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Action*s*Adventure/works"
+                                >Action/Adventure</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Age%20Difference/works"
+                                >Age Difference</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Aged-Up%20Character(s)/works"
+                                >Aged-Up Character(s)</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Alcohol/works"
+                                >Alcohol</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Alpha*s*Beta*s*Omega%20Dynamics/works"
+                                >Alpha/Beta/Omega Dynamics</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud8 tag"
+                                href="/tags/Alternate%20Universe/works"
+                                >Alternate Universe</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Ambiguity/works"
+                                >Ambiguity</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud8 tag" href="/tags/Angst/works"
+                                >Angst</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Anxiety/works"
+                                >Anxiety</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud5 tag"
+                                href="/tags/AO3%20Tags%20-%20Freeform/works"
+                                >AO3 Tags - Freeform</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Art/works">Art</a>
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Asexuality%20Spectrum/works"
+                                >Asexuality Spectrum</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Asphyxiation/works"
+                                >Asphyxiation</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Awkwardness/works"
+                                >Awkwardness</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Badass/works"
+                                >Badass</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Bathing*s*Washing/works"
+                                >Bathing/Washing</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/BDSM/works"
+                                >BDSM</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Beds/works"
+                                >Beds</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Biting/works"
+                                >Biting</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Blood/works"
+                                >Blood</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Bodily%20Fluids/works"
+                                >Bodily Fluids</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Bonding/works"
+                                >Bonding</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Bottoming/works"
+                                >Bottoming</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Break%20Up/works"
+                                >Break Up</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Breeding/works"
+                                >Breeding</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Canon%20Related/works"
+                                >Canon Related</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Canon%20Universe/works"
+                                >Canon Universe</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Character%20Study/works"
+                                >Character Study</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Children/works"
+                                >Children</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Clothing/works"
+                                >Clothing</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Coercion/works"
+                                >Coercion</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Comfort/works"
+                                >Comfort</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Confessions/works"
+                                >Confessions</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Consent/works"
+                                >Consent</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Crack/works"
+                                >Crack</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Crimes%20*a*%20Criminals/works"
+                                >Crimes &amp; Criminals</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Crossovers%20*a*%20Fandom%20Fusions/works"
+                                >Crossovers &amp; Fandom Fusions</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Crushes/works"
+                                >Crushes</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Crying/works"
+                                >Crying</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Cuddling%20*a*%20Snuggling/works"
+                                >Cuddling &amp; Snuggling</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Daddy%20Kink/works"
+                                >Daddy Kink</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Dancing%20and%20Singing/works"
+                                >Dancing and Singing</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Dark/works"
+                                >Dark</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Dating/works"
+                                >Dating</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Dead%20Dove:%20Do%20Not%20Eat/works"
+                                >Dead Dove: Do Not Eat</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Death/works"
+                                >Death</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Disability/works"
+                                >Disability</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Domestic/works"
+                                >Domestic</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Drabble/works"
+                                >Drabble</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Drama/works"
+                                >Drama</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Dreams%20and%20Nightmares/works"
+                                >Dreams and Nightmares</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Drugs/works"
+                                >Drugs</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Education/works"
+                                >Education</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Enemies/works"
+                                >Enemies</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Everyone%20Is%20Alive/works"
+                                >Everyone Is Alive</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Falling%20In%20Love/works"
+                                >Falling In Love</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud6 tag" href="/tags/Family/works"
+                                >Family</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Feelings/works"
+                                >Feelings</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Feels/works"
+                                >Feels</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Female%20Characters/works"
+                                >Female Characters</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Female%20Relationships/works"
+                                >Female Relationships</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Ficlet/works"
+                                >Ficlet</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Fights/works"
+                                >Fights</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Fingerfucking/works"
+                                >Fingerfucking</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Firsts/works"
+                                >Firsts</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Fix-It/works"
+                                >Fix-It</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Flashbacks/works"
+                                >Flashbacks</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Flirting/works"
+                                >Flirting</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud8 tag" href="/tags/Fluff/works"
+                                >Fluff</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Food/works"
+                                >Food</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud6 tag" href="/tags/Friendship/works"
+                                >Friendship</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Future/works"
+                                >Future</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Gender%20Related/works"
+                                >Gender Related</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Getting%20Together/works"
+                                >Getting Together</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Gore/works"
+                                >Gore</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Guilt/works"
+                                >Guilt</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Hair/works"
+                                >Hair</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud5 tag"
+                                href="/tags/Happy%20Ending/works"
+                                >Happy Ending</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Harm%20to%20Children/works"
+                                >Harm to Children</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Hatred/works"
+                                >Hatred</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Historical/works"
+                                >Historical</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Holidays/works"
+                                >Holidays</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Homophobia/works"
+                                >Homophobia</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Horror/works"
+                                >Horror</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Hugs/works"
+                                >Hugs</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Human/works"
+                                >Human</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Humiliation/works"
+                                >Humiliation</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Humor/works"
+                                >Humor</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Hurt/works"
+                                >Hurt</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud7 tag"
+                                href="/tags/Hurt*s*Comfort/works"
+                                >Hurt/Comfort</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/I%20Wrote%20This%20Instead%20of%20Sleeping/works"
+                                >I Wrote This Instead of Sleeping</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/I&#39;m%20Sorry/works"
+                                >I&#39;m Sorry</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Idiots%20in%20Love/works"
+                                >Idiots in Love</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Illnesses/works"
+                                >Illnesses</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Implied*s*Referenced%20Character%20Death/works"
+                                >Implied/Referenced Character Death</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/In%20Public/works"
+                                >In Public</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Incest/works"
+                                >Incest</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Infidelity/works"
+                                >Infidelity</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Injury/works"
+                                >Injury</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Inspired%20by*d**d**d*/works"
+                                >Inspired by...</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Intoxication/works"
+                                >Intoxication</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Introspection/works"
+                                >Introspection</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Issues/works"
+                                >Issues</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Jealousy/works"
+                                >Jealousy</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Kinks/works"
+                                >Kinks</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Kissing/works"
+                                >Kissing</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Language/works"
+                                >Language</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud5 tag"
+                                href="/tags/LGBTQ%20Themes/works"
+                                >LGBTQ Themes</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud5 tag"
+                                href="/tags/Light-Hearted/works"
+                                >Light-Hearted</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Loss/works"
+                                >Loss</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud6 tag" href="/tags/Love/works"
+                                >Love</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Making%20Out/works"
+                                >Making Out</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Manipulation/works"
+                                >Manipulation</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Marriage/works"
+                                >Marriage</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Medical/works"
+                                >Medical</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Memory%20Related/works"
+                                >Memory Related</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud5 tag"
+                                href="/tags/Mental%20Health%20Issues/works"
+                                >Mental Health Issues</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Misunderstandings/works"
+                                >Misunderstandings</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Modern%20Era/works"
+                                >Modern Era</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Music/works"
+                                >Music</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/My%20First*d**d**d*/works"
+                                >My First...</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Mythical%20Beings%20*a*%20Creatures/works"
+                                >Mythical Beings &amp; Creatures</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/No%20Smut/works"
+                                >No Smut</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Non-Consensual/works"
+                                >Non-Consensual</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Non-Sexual/works"
+                                >Non-Sexual</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud5 tag"
+                                href="/tags/Not%20Beta%20Read/works"
+                                >Not Beta Read</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud6 tag"
+                                href="/tags/Not%20Canon%20Compliant/works"
+                                >Not Canon Compliant</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Oblivious/works"
+                                >Oblivious</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/One%20Shot/works"
+                                >One Shot</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Orgasm/works"
+                                >Orgasm</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Original%20Character(s)/works"
+                                >Original Character(s)</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Out%20of%20Character/works"
+                                >Out of Character</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Overstimulation/works"
+                                >Overstimulation</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Pain/works"
+                                >Pain</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Panic/works"
+                                >Panic</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Penises/works"
+                                >Penises</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Pining/works"
+                                >Pining</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Plot/works"
+                                >Plot</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Podfic%20*a*%20Podficced%20Works/works"
+                                >Podfic &amp; Podficced Works</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Poetry/works"
+                                >Poetry</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Polyamory/works"
+                                >Polyamory</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud5 tag" href="/tags/Porn/works"
+                                >Porn</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Possessive%20Behavior/works"
+                                >Possessive Behavior</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Post-Canon/works"
+                                >Post-Canon</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Posted%20Elsewhere/works"
+                                >Posted Elsewhere</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/POV%20First%20Person/works"
+                                >POV First Person</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/POV%20Multiple/works"
+                                >POV Multiple</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Praise%20Kink/works"
+                                >Praise Kink</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Pre-Canon/works"
+                                >Pre-Canon</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Pregnancy/works"
+                                >Pregnancy</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Prompt%20Fill/works"
+                                >Prompt Fill</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Protectiveness/works"
+                                >Protectiveness</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Reader-Insert/works"
+                                >Reader-Insert</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud7 tag"
+                                href="/tags/Relationship(s)/works"
+                                >Relationship(s)</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Religion/works"
+                                >Religion</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud6 tag" href="/tags/Romance/works"
+                                >Romance</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Roughness/works"
+                                >Roughness</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Royalty/works"
+                                >Royalty</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Sad/works">Sad</a>
+                        </li>
+                        <li>
+                            <a
+                                class="cloud3 tag"
+                                href="/tags/Science%20Fiction%20*a*%20Fantasy/works"
+                                >Science Fiction &amp; Fantasy</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Secrets/works"
+                                >Secrets</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Self-Esteem/works"
+                                >Self-Esteem</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Self-Harm/works"
+                                >Self-Harm</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Serious/works"
+                                >Serious</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud8 tag"
+                                href="/tags/Sexual%20Content/works"
+                                >Sexual Content</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Sexual%20Inexperience/works"
+                                >Sexual Inexperience</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Shapeshifting/works"
+                                >Shapeshifting</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Sharing/works"
+                                >Sharing</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Short/works"
+                                >Short</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Slash/works"
+                                >Slash</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Slice%20of%20Life/works"
+                                >Slice of Life</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Slow%20Build/works"
+                                >Slow Build</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud6 tag" href="/tags/Smut/works"
+                                >Smut</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Soulmates/works"
+                                >Soulmates</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Spoilers/works"
+                                >Spoilers</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Sports/works"
+                                >Sports</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Substance%20Abuse/works"
+                                >Substance Abuse</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Suicide/works"
+                                >Suicide</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud4 tag"
+                                href="/tags/Supernatural%20Elements/works"
+                                >Supernatural Elements</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Team/works"
+                                >Team</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Teasing/works"
+                                >Teasing</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Teenagers/works"
+                                >Teenagers</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Tension/works"
+                                >Tension</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Threesome/works"
+                                >Threesome</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud1 tag"
+                                href="/tags/Time%20Travel/works"
+                                >Time Travel</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Topping/works"
+                                >Topping</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Torture/works"
+                                >Torture</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Trauma/works"
+                                >Trauma</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Tumblr/works"
+                                >Tumblr</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="cloud2 tag"
+                                href="/tags/Underage%20-%20Freeform/works"
+                                >Underage - Freeform</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud3 tag" href="/tags/Unrequited/works"
+                                >Unrequited</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud4 tag" href="/tags/Vaginal/works"
+                                >Vaginal</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud6 tag" href="/tags/Violence/works"
+                                >Violence</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Voyeurism/works"
+                                >Voyeurism</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/War/works">War</a>
+                        </li>
+                        <li>
+                            <a class="cloud2 tag" href="/tags/Weapons/works"
+                                >Weapons</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Weather/works"
+                                >Weather</a
+                            >
+                        </li>
+                        <li>
+                            <a class="cloud1 tag" href="/tags/Whump/works"
+                                >Whump</a
+                            >
+                        </li>
+                    </ul>
+                    <!--/content-->
+
+                    <div class="clear"><!--presentational--></div>
+                </div>
+                <!-- END main -->
+            </div>
+            <!-- BEGIN footer -->
             <div id="footer" role="contentinfo" class="region">
                 <h3 class="landmark heading">Footer</h3>
                 <ul class="navigation actions" role="navigation">
                     <li class="module group">
                         <h4 class="heading">Customize</h4>
                         <ul class="menu">
-                            <li><a href="">Default</a></li>
-                            <li><a href="">Happy 17th!</a></li>
-                            <li><a href="">Low Vision Default</a></li>
-                            <li><a href="">Reversi</a></li>
-                            <li><a href="">Snow Blue</a></li>
+                            <li><a href="/skins/unset">Default</a></li>
+                            <li>
+                                <a href="/skins/2110030/set">Happy 17th!</a>
+                            </li>
+                            <li>
+                                <a href="/skins/891/set">Low Vision Default</a>
+                            </li>
+                            <li><a href="/skins/929/set">Reversi</a></li>
+                            <li><a href="/skins/932/set">Snow Blue</a></li>
                         </ul>
                     </li>
                     <li class="module group">
                         <h4 class="heading">About the Archive</h4>
                         <ul class="menu">
-                            <li><a href="">Site Map</a></li>
-                            <li><a href="">Diversity Statement</a></li>
-                            <li><a href="">Terms of Service</a></li>
-                            <li><a href="">DMCA Policy</a></li>
+                            <li><a href="/site_map">Site Map</a></li>
+                            <li>
+                                <a href="/diversity">Diversity Statement</a>
+                            </li>
+                            <li><a href="/tos">Terms of Service</a></li>
+                            <li><a href="/dmca">DMCA Policy</a></li>
                         </ul>
                     </li>
                     <li class="module group">
                         <h4 class="heading">Contact Us</h4>
                         <ul class="menu">
                             <li>
-                                <a href="">Policy Questions &amp; Abuse Reports</a>
+                                <a href="/abuse_reports/new"
+                                    >Policy Questions &amp; Abuse Reports</a
+                                >
                             </li>
-                            <li><a href="">Technical Support &amp; Feedback</a></li>
+                            <li>
+                                <a href="/support"
+                                    >Technical Support &amp; Feedback</a
+                                >
+                            </li>
                         </ul>
                     </li>
                     <li class="module group">
                         <h4 class="heading">Development</h4>
                         <ul class="menu">
                             <li>
-                                <a href="">otwarchive v0.9.380.3</a>
+                                <a
+                                    href="https://github.com/otwcode/otwarchive/commits/v0.9.380.3"
+                                    >otwarchive v0.9.380.3</a
+                                >
                             </li>
-                            <li><a href="">Known Issues</a></li>
+                            <li><a href="/known_issues">Known Issues</a></li>
                             <li>
-                                <a href="">GPL-2.0-or-later</a>
+                                <a
+                                    href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+                                    title="View License"
+                                    >GPL-2.0-or-later</a
+                                >
                                 by the
-                                <a href="">OTW</a>
+                                <a
+                                    href="https://transformativeworks.org/"
+                                    title="The Organization for Transformative Works"
+                                    >OTW</a
+                                >
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
-            <!-- END footer -->undefined
+            <!-- END footer -->
+        </div>
+    </body>
+</html>
+<!-- SKIN STYLESHEETS -->
+    <!-- END STYLESHEETS -->undefined

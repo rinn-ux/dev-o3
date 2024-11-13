@@ -58,25 +58,26 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 │   ├── fandoms.html
 │   └── search.html
 ├── people
-│   └── search.html
+│   ├── index.html ✅
+│   └── search.html 💻
 ├── tags
 │   ├── example-tag
 │   │   ├── works
-│   │   │   └── index.html
-│   │   └── index.html
-│   ├── index.html
-│   └── search.html
+│   │   │   └── index.html 💻
+│   │   └── index.html 💻
+│   ├── index.html 💻
+│   └── search.html 💻
 ├── users
 │   ├── Author
 │   │   └── pseuds
 │   │       └── FavAuthor.html
 │   └── User
-│       ├── bookmarks.html
-│       ├── index.html
-│       ├── preferences.html
-│       ├── readings.html
-│       ├── subscriptions.html
-│       └── works.html
+│       ├── bookmarks.html 💻
+│       ├── index.html 💻
+│       ├── preferences.html 💻
+│       ├── readings.html 💻
+│       ├── subscriptions.html 💻
+│       └── works.html 💻
 ├── works
 │   ├── new.html
 │   ├── newImport.html
@@ -86,7 +87,7 @@ This is a WIP minimal static version of Ao3 for skin development purposes. Made 
 ├── admin_posts.html ✅
 ├── donate.html ✅
 ├── faq.html 💻
-├── index.html✅
+├── index.html 💻
 └── wrangling_guidelines.html 💻
 ```
 

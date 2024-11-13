@@ -60,13 +60,15 @@ files.forEach((file) => {
         flag: 'r',
     })
 
-    data =
-        data.split('<!-- BEGIN footer -->')[0] +
-        HEADER +
-        data.split('<!-- END footer -->')[1]
+    if (data.includes('<!-- BEGIN footer -->')) {
+        data =
+            data.split('<!-- BEGIN footer -->')[0] +
+            HEADER +
+            data.split('<!-- END footer -->')[1]
 
-    fs.writeFileSync('src/' + file, data, {
-        encoding: 'utf8',
-        flag: 'w',
-    })
+        fs.writeFileSync('src/' + file, data, {
+            encoding: 'utf8',
+            flag: 'w',
+        })
+    }
 })
